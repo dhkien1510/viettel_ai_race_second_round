@@ -53,6 +53,13 @@ button { font: inherit; cursor: pointer; }
 .section-label { margin: 0 0 7px; }
 h2 { margin: 0; font-size: clamp(1.35rem, 3vw, 2rem); letter-spacing: -.03em; }
 .count { color: var(--muted); font-size: .86rem; }
+.tty-guide { margin-top: 14px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; color: var(--muted); font-size: .82rem; background: rgba(255,255,255,.018); }
+.tty-guide > summary { color: #cbd8d0; font-weight: 700; }
+.tty-legend { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 14px; }
+.tty-legend > div { display: grid; grid-template-columns: 55px 1fr; gap: 3px 8px; padding: 10px; border-radius: 9px; background: rgba(255,255,255,.025); }
+.tty-legend strong { color: var(--accent); }
+.tty-legend span { color: var(--text); font-weight: 700; }
+.tty-legend p { grid-column: 2; margin: 0; line-height: 1.45; }
 .status { padding: 40px 4px; color: var(--muted); }
 .results { display: grid; gap: 14px; padding-top: 20px; }
 .drug-card { padding: 22px; border: 1px solid var(--line); border-radius: 17px; background: rgba(14, 24, 20, .78); animation: rise .28s ease both; }
@@ -77,4 +84,5 @@ summary { cursor: pointer; }
   .search-row { grid-template-columns: 1fr; }
   .search-row > button { height: 50px; }
   .metadata { grid-template-columns: 1fr; }
+  .tty-legend { grid-template-columns: 1fr; }
 }
