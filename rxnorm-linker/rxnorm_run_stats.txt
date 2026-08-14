@@ -1,0 +1,9 @@
+Tong THUOC entity: 248
+Co candidates (>=1 ma): 192 (77.4%)
+Rong (0 ma): 56 (22.6%)
+
+Phan bo so luong candidates tra ve:
+  0 candidate(s): 56 entity
+  1 candidate(s): 177 entity
+  2 candidate(s): 7 entity
+  3 candidate(s): 8 entity

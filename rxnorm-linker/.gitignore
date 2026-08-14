@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Raw RxNorm download (large, rebuild by re-downloading from NLM + rerunning
+# scripts/build_rxnorm_index.py)
+# data/rxnorm/rrf/
+# data/rxnorm/*.zip
+data/rxnorm/Readme_Full*.txt
+data/rxnorm/scripts/
+
+# Derived cache (large, rebuild via scripts/build_rxnorm_index.py)
+data/rxnorm/cache/
+
+# Logs
+logs/
+*.log

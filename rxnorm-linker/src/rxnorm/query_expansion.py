@@ -15,10 +15,11 @@ All expansions are capped and deduped per config.
 """
 from __future__ import annotations
 
+import re
 import unicodedata
 
 from .config import CONFIG
-from .normalize import INGREDIENT_ALIASES, _strip_accents
+from .normalize import INGREDIENT_ALIASES, PHRASE_ALIASES, _strip_accents
 
 
 def _normalize_view(text: str) -> str:
@@ -74,7 +75,9 @@ def expand_query(
         add_view(stripped.lower(), "accent_stripped")
 
     # 4. Alias-expanded variant: replace colloquial names with RxNorm terms
-    lowered = text.lower()
+    lowered = _strip_accents(text.lower())
+    for phrase, replacement in PHRASE_ALIASES.items():
+        lowered = re.sub(rf"\b{re.escape(phrase)}\b", replacement, lowered)
     aliased_parts = []
     for word in lowered.split():
         expanded = alias_map.get(word, word)

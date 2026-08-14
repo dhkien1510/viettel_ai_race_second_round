@@ -56,8 +56,8 @@ class Config:
     # If the best cross-encoder relevance score (sigmoid, 0..1) in the pool is
     # below this, none of the retrieved candidates are actually relevant --
     # return empty instead of forcing top_k guesses. This is the same insight
-    # behind the conservative candidate policy
-    # ("wrong candidates hurt more than an empty prediction"), applied as
+    # behind the old label_rxnorm_safe/selective/conservative experiments
+    # ("wrong candidates hurt more than an empty prediction"), now applied as
     # a principled gate on the reranker's own confidence instead of a
     # hand-tuned side script.
     min_rerank_confidence: float = 0.5
@@ -74,7 +74,10 @@ class Config:
     tier3_collapse_confidence: float = 0.8
 
     # ---- Cache versioning ------------------------------------------------
-    cache_version: str = "mv-hybrid-v2"
+    # v3 changes tokenization, aliases and strength canonicalization.  The
+    # index must be rebuilt because build_index.py uses the same parser for
+    # RxNorm entries as the online query path.
+    cache_version: str = "mv-hybrid-v3-normalization"
 
 
 CONFIG = Config()

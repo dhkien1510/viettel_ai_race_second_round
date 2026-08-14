@@ -20,32 +20,31 @@ sys.path.insert(0, str(ROOT / "src"))
 from rxnorm.linker import get_linker
 
 
-def extract_context_line(note_text: str, start: int, end: int) -> str:
-    # Extract the line containing the entity, plus the line immediately before and after it.
-    line_start = note_text.rfind('\n', 0, start) + 1
-    line_end = note_text.find('\n', end)
-    if line_end == -1:
-        line_end = len(note_text)
-    
-    prev_line_start = note_text.rfind('\n', 0, max(0, line_start - 2)) + 1
-    next_line_end = note_text.find('\n', line_end + 1)
-    if next_line_end == -1:
-        next_line_end = len(note_text)
-        
-    return note_text[prev_line_start:next_line_end]
-
-
-def fill_candidates(entities: list[dict], note_text: str | None = None, top_k: int = 1, strategy: str = "most_specific") -> list[dict]:
+def fill_candidates(
+    entities: list[dict],
+    top_k: int = 3,
+    exact_only: bool = False,
+    use_tier3: bool = True,
+    dose_fallback: str = "nearest",
+    score_guided_manual: bool = False,
+) -> list[dict]:
     linker = get_linker()
+    if score_guided_manual:
+        for ent in entities:
+            if ent.get("type") != "THUỐC":
+                continue
+            ent["candidates"] = linker.link_score_guided_rxcuis(ent.get("text", ""))
+        return entities
+
     for ent in entities:
         if ent.get("type") != "THUỐC":
             continue
-        pos = ent.get("position")
-        local_context = None
-        if note_text and pos and len(pos) == 2:
-            start, end = pos
-            local_context = extract_context_line(note_text, start, end)
-        ent["candidates"] = linker.link_rxcuis(ent["text"], top_k=top_k, context=local_context, strategy=strategy)
+        if exact_only:
+            ent["candidates"] = linker.link_exact_rxcuis(ent["text"])
+        else:
+            ent["candidates"] = linker.link_rxcuis(
+                ent["text"], top_k=top_k, use_tier3=use_tier3, dose_fallback=dose_fallback
+            )
     return entities
 
 
@@ -55,10 +54,22 @@ def main() -> None:
     ap.add_argument("--dir", help="process every .json file in this directory instead")
     ap.add_argument("--out", help="write results here instead of overwriting inputs "
                                    "(mirrors input filenames)")
-    ap.add_argument("--input-dir", help="directory containing <id>.txt notes for context-aware linking")
-    ap.add_argument("--top-k", type=int, default=1)
-    ap.add_argument("--strategy", choices=["most_specific", "ingredient_only", "generic_only", "surface_form", "conservative"], default="most_specific",
-                    help="priority selection strategy for TTYs")
+    ap.add_argument("--top-k", type=int, default=3)
+    ap.add_argument("--exact-only", action="store_true",
+                     help="skip embedding/rerank tier entirely; only keep a candidate when "
+                          "the RxNorm entry's tokens+strength match the query exactly, "
+                          "otherwise leave candidates empty")
+    ap.add_argument("--no-tier3", action="store_true",
+                     help="disable the SapBERT embedding + reranker fallback tier entirely -- "
+                          "a term with no lexical dictionary match stays empty instead of "
+                          "getting a fuzzy guess (typos, OOV/informal names, glued names)")
+    ap.add_argument("--dose-fallback", choices=["nearest", "bare"], default="nearest",
+                     help="when the stated dose isn't a real marketed strength: 'nearest' picks "
+                          "the closest existing strength (default); 'bare' drops the dose and "
+                          "falls back to the bare ingredient/brand candidate instead")
+    ap.add_argument("--score-guided-manual", action="store_true",
+                    help="use the score-guided conservative one-candidate heuristic; "
+                         "no per-submission text map is used")
     args = ap.parse_args()
 
     files = [Path(f) for f in args.files]
@@ -73,31 +84,17 @@ def main() -> None:
 
     for path in files:
         entities = json.loads(path.read_text(encoding="utf-8"))
-        
-        # Search for corresponding text note
-        note_name = path.stem + ".txt"
-        note_text = None
-        candidate_dirs = [Path(args.input_dir)] if args.input_dir else []
-        candidate_dirs.extend([
-            Path("data/input-part2-real/input"),
-            Path("../data/input-part2-real/input"),
-            Path("../../data/input-part2-real/input"),
-            Path("data/input"),
-            Path("../data/input"),
-            Path("../../data/input"),
-            ROOT / "data" / "input-part2-real" / "input",
-            ROOT / "data" / "input",
-        ])
-        for candidate_dir in candidate_dirs:
-            note_path = candidate_dir / note_name
-            if note_path.exists():
-                note_text = note_path.read_text(encoding="utf-8")
-                break
-
-        fill_candidates(entities, note_text=note_text, top_k=args.top_k, strategy=args.strategy)
+        fill_candidates(
+            entities,
+            top_k=args.top_k,
+            exact_only=args.exact_only,
+            use_tier3=not args.no_tier3,
+            dose_fallback=args.dose_fallback,
+            score_guided_manual=args.score_guided_manual,
+        )
         target = out_dir / path.name if out_dir else path
         target.write_text(json.dumps(entities, ensure_ascii=False, indent=2), encoding="utf-8")
-        print(f"updated {target} (context loaded: {note_text is not None})")
+        print(f"updated {target}")
 
 
 if __name__ == "__main__":
