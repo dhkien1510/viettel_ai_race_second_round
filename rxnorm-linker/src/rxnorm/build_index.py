@@ -7,8 +7,9 @@ from pathlib import Path
 from .config import CONFIG
 from .normalize import parse_span
 
-RRF_PATH = Path("data/rxnorm/rrf/RXNCONSO.RRF")
-CACHE_PATH = Path("data/rxnorm/cache/rxnorm_index.pkl")
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+RRF_PATH = PROJECT_ROOT / "data" / "rxnorm" / "rrf" / "RXNCONSO.RRF"
+CACHE_PATH = PROJECT_ROOT / "data" / "rxnorm" / "cache" / "rxnorm_index.pkl"
 
 # RXNCONSO.RRF columns (pipe-delimited, no header):
 # 0 RXCUI 1 LAT 2 TS 3 LUI 4 STT 5 SUI 6 ISPREF 7 RXAUI 8 SAUI 9 SCUI

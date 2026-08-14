@@ -1,0 +1,105 @@
+# Section heading cues -> category.
+# Matching is done on a heading line after stripping leading numbering/bullets,
+# lower-cased. When several cues prefix-match a line, the LONGEST cue wins, so
+# "tiền sử bệnh hiện tại" (HPI, current) beats "tiền sử bệnh" (HISTORY, past).
+#
+# historical_prone categories = {HISTORY, MED_HISTORY}: bare diagnoses / drugs /
+# symptoms listed under them default to isHistorical.
+
+HPI:            # bệnh sử hiện tại — CURRENT episode narrative (NOT historical)
+  - "tiền sử bệnh hiện tại"
+  - "bệnh sử hiện tại"
+  - "lịch sử bệnh hiện tại"
+  - "quá trình bệnh lý hiện tại"
+
+SYMPTOM_CURRENT:
+  - "các triệu chứng hiện tại"
+  - "triệu chứng hiện tại"
+  - "triệu chứng khi nhập viện"
+  - "triệu chứng chính"
+  - "lý do nhập viện"
+  - "lý do khám bệnh"
+  - "lý do vào viện"
+  - "diễn biến bệnh"
+  - "đặc điểm triệu chứng"
+  - "đặc điểm của triệu chứng"
+  - "đặc điểm triệu chứng khi khám tại khoa cấp cứu"
+  - "các sự kiện trước khi nhập viện"
+  - "sự kiện trước khi nhập viện"
+  - "các diễn biến trước khi nhập viện"
+  - "các diễn biến  trước khi nhập viện"
+  - "tình trạng ngay trước khi nhập viện"
+  - "thời điểm khởi phát triệu chứng"
+  - "các triệu chứng liên quan"
+
+MED_HISTORY:    # pre-admission medications — HISTORICAL
+  - "thuốc trước khi nhập viện lần này"
+  - "thuốc đang dùng trước khi nhập viện"
+  - "thuốc trước khi nhập viện"
+  - "thuốc đã dùng trước đây"
+  - "thuốc đang dùng"
+  - "xử trí thuốc trước khi nhập viện"
+
+FAMILY_HISTORY: # relative's history — NOT historical_prone (belongs to isFamily,
+                 # not isHistorical). Cues here are all longer than HISTORY's
+                 # bare "tiền sử", so longest-cue-wins picks this category first.
+  - "tiền sử gia đình bệnh nhân"
+  - "tiền sử gia đình"
+  - "bệnh sử gia đình"
+  - "yếu tố di truyền gia đình"
+  - "yếu tố di truyền"
+
+HISTORY:        # past medical / surgical history — HISTORICAL
+  - "tiền sử bệnh nội khoa"
+  - "tiền sử bệnh"
+  - "các bệnh lý nội khoa mạn tính"
+  - "các bệnh lý mãn tính"
+  - "các bệnh lý mạn tính"
+  - "bệnh lý mãn tính"
+  - "bệnh lý mạn tính"
+  - "các bệnh mãn tính"
+  - "bệnh mãn tính"
+  - "bệnh mạn tính"
+  - "bệnh lý mãn tính"
+  - "các bệnh đã điều trị trước đây"
+  - "tiền sử phẫu thuật / thủ thuật"
+  - "tiền sử phẫu thuật"
+  - "các yếu tố nguy cơ liên quan"
+  - "yếu tố nguy cơ"
+  - "tiền sử"
+
+LAB:
+  - "kết quả xét nghiệm máu"
+  - "kết quả xét nghiệm"
+  - "kết quả phòng thí nghiệm"
+  - "kết quả phòng lab"
+  - "kết quả lab"
+  - "cận lâm sàng"
+
+IMAGING:
+  - "kết quả chẩn đoán hình ảnh"
+  - "kết quả hình ảnh"
+  - "kết quả chụp ảnh"
+  - "kết quả chụp ảnh/kỹ thuật chẩn đoán hình ảnh"
+  - "chẩn đoán hình ảnh và thăm dò"
+
+ASSESSMENT:
+  - "đánh giá tại bệnh viện"
+  - "chẩn đoán sơ bộ"
+  - "chẩn đoán xác định"
+  - "chẩn đoán"
+  - "các phát hiện chẩn đoán khác"
+  - "các kết quả chẩn đoán khác"
+  - "phát hiện chẩn đoán khác"
+  - "kết quả khám lâm sàng"
+  - "kết quả khám thực thể"
+  - "kết quả khám tại bệnh viện"
+  - "dấu hiệu lâm sàng"
+  - "dấu hiệu sinh tồn"
+
+PROCEDURE:
+  - "các thủ thuật đã thực hiện"
+  - "các thủ thuật thực hiện"
+  - "thủ thuật đã thực hiện"
+  - "thủ thuật được thực hiện"
+  - "thủ thuật thực hiện"

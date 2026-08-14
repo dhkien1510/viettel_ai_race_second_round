@@ -102,12 +102,28 @@ def run_epoch(model, cache: dict, keys: list, device: str, rng: random.Random, t
         L = input_ids.shape[-1]
         with torch.set_grad_enabled(train), torch.autocast(device_type="cuda", dtype=torch.bfloat16,
                                                              enabled=(device == "cuda")):
-            logits = model(input_ids.view(B * cap, L), attn.view(B * cap, L)).view(B, cap)
-            logits = logits.masked_fill(~cand_mask, float("-inf"))
+            # Do not send all-padding candidate rows through the encoder. XLM-R
+            # attention over an entirely masked row can produce NaNs which then
+            # contaminate gradients even after the row is masked from the loss.
+            flat_mask = cand_mask.view(-1)
+            valid_logits = model(
+                input_ids.view(B * cap, L)[flat_mask],
+                attn.view(B * cap, L)[flat_mask],
+            )
+            flat_logits = torch.full(
+                (B * cap,), float("-inf"), device=device, dtype=valid_logits.dtype
+            )
+            flat_logits = flat_logits.masked_scatter(flat_mask, valid_logits)
+            logits = flat_logits.view(B, cap)
             loss = F.cross_entropy(logits, pos_idx)
+        if not torch.isfinite(loss):
+            raise FloatingPointError(
+                f"Non-finite loss at entity batch offset {start}; "
+                "check candidate masks and model precision."
+            )
         if train:
             loss.backward()
-            torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+            grad_norm = torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0, error_if_nonfinite=True)
             optimizer.step()
             optimizer.zero_grad()
         total_loss += loss.item() * B

@@ -48,16 +48,36 @@ def decode_document(text: str, tokenizer, model, device, max_len: int, stride: i
 
     labels = model.config.id2label
     tagged = []
+    o_label_id = next((index for index, label in labels.items() if label == "O"), 0)
     for (start, end), values in sorted(votes.items()):
         mean_logits = torch.stack(values).mean(0)
-        tagged.append((start, end, labels[int(mean_logits.argmax())]))
+        probabilities = mean_logits.softmax(-1)
+        predicted_id = int(mean_logits.argmax())
+        tagged.append(
+            (
+                start,
+                end,
+                labels[predicted_id],
+                float(probabilities[predicted_id]),
+                float(mean_logits[predicted_id] - mean_logits[o_label_id]),
+            )
+        )
+
+    def finish(entity: dict) -> dict:
+        confidences = entity.pop("_token_confidences")
+        margins = entity.pop("_token_margins")
+        entity["_confidence_mean"] = sum(confidences) / len(confidences)
+        entity["_confidence_min"] = min(confidences)
+        entity["_margin_mean"] = sum(margins) / len(margins)
+        entity["_token_count"] = len(confidences)
+        return entity
 
     entities = []
     current = None
-    for start, end, label in tagged:
+    for start, end, label, confidence, margin in tagged:
         if label == "O" or "-" not in label:
             if current is not None:
-                entities.append(current)
+                entities.append(finish(current))
                 current = None
             continue
         bio, entity_type = label.split("-", 1)
@@ -71,19 +91,23 @@ def decode_document(text: str, tokenizer, model, device, max_len: int, stride: i
         )
         if not can_continue:
             if current is not None:
-                entities.append(current)
+                entities.append(finish(current))
             current = {
                 "text": text[start:end],
                 "position": [start, end],
                 "type": entity_type,
                 "assertions": [],
                 "candidates": [],
+                "_token_confidences": [confidence],
+                "_token_margins": [margin],
             }
         else:
             current["position"][1] = end
             current["text"] = text[current["position"][0]:end]
+            current["_token_confidences"].append(confidence)
+            current["_token_margins"].append(margin)
     if current is not None:
-        entities.append(current)
+        entities.append(finish(current))
 
     unique = {(item["position"][0], item["position"][1], item["type"]): item for item in entities}
     return [unique[key] for key in sorted(unique)]
@@ -149,6 +173,7 @@ def main() -> None:
     parser.add_argument("--split", choices=["train", "validation"], default="validation")
     parser.add_argument("--evaluate-after-inference", help="Reference dir, read only after prediction completes")
     parser.add_argument("--metrics-out")
+    parser.add_argument("--debug-output", help="Optional directory for per-entity confidence diagnostics")
     args = parser.parse_args()
 
     import torch
@@ -159,6 +184,9 @@ def main() -> None:
     input_dir = Path(args.input).resolve()
     output_dir = Path(args.output).resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
+    debug_output_dir = Path(args.debug_output).resolve() if args.debug_output else None
+    if debug_output_dir:
+        debug_output_dir.mkdir(parents=True, exist_ok=True)
     meta = json.loads((checkpoint / "backend_meta.json").read_text(encoding="utf-8"))
     tokenizer = AutoTokenizer.from_pretrained(checkpoint, use_fast=True)
     peft_config = PeftConfig.from_pretrained(checkpoint)
@@ -187,10 +215,18 @@ def main() -> None:
     # Prediction completes before an evaluator is allowed to open a reference.
     for index, document_id in enumerate(ids, 1):
         text = read_text(input_dir / f"{document_id}.txt")
-        entities = decode_document(text, tokenizer, model, "cuda", meta["max_len"], meta["stride"])
+        scored_entities = decode_document(text, tokenizer, model, "cuda", meta["max_len"], meta["stride"])
+        entities = [
+            {key: value for key, value in entity.items() if not key.startswith("_")}
+            for entity in scored_entities
+        ]
         (output_dir / f"{document_id}.json").write_text(
             json.dumps(entities, ensure_ascii=False, indent=2), encoding="utf-8"
         )
+        if debug_output_dir:
+            (debug_output_dir / f"{document_id}.json").write_text(
+                json.dumps(scored_entities, ensure_ascii=False, indent=2), encoding="utf-8"
+            )
         print(f"[{index}/{len(ids)}] {document_id}: {len(entities)} entities", flush=True)
 
     if args.evaluate_after_inference:

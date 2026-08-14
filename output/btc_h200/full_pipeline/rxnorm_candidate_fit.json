@@ -1,0 +1,18 @@
+{
+  "type": "THUỐC",
+  "prediction_entities": 268,
+  "reference_entities": 269,
+  "exact_matched_entities": 262,
+  "exact_candidate_set": 210,
+  "exact_candidate_set_accuracy": 0.8015267175572519,
+  "both_candidate_sets_empty": 43,
+  "macro_jaccard": 0.8015267175572519,
+  "micro_candidates": {
+    "true_positive": 167,
+    "predicted": 198,
+    "reference": 215,
+    "precision": 0.8434343434343434,
+    "recall": 0.7767441860465116,
+    "f1": 0.8087167070217917
+  }
+}

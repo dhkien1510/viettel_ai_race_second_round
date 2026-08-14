@@ -1,0 +1,450 @@
+{
+  "results": {
+    "all": {
+      "correct": 707,
+      "total": 779
+    },
+    "val_only": {
+      "correct": 88,
+      "total": 109
+    },
+    "train_only": {
+      "correct": 619,
+      "total": 670
+    }
+  },
+  "mistakes": [
+    {
+      "doc_id": "10",
+      "text": "Viêm gan cấp tính do virus B",
+      "gold": "B18.1",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "14",
+      "text": "hẹp ống sống",
+      "gold": "M48.0",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "2",
+      "text": "hẹp tắc mạch vành",
+      "gold": "I25.8",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "2",
+      "text": "Bệnh đa xơ cứng",
+      "gold": "G35",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "2",
+      "text": "Ảo giác do rượu",
+      "gold": "NONE",
+      "pred": "F10.2"
+    },
+    {
+      "doc_id": "2",
+      "text": "tổn thương vành mạch",
+      "gold": "I25.8",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "21",
+      "text": "bệnh amyloidosis",
+      "gold": "E85.9",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "21",
+      "text": "amyloidosis",
+      "gold": "E85.9",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "21",
+      "text": "Bệnh amyloidosis chuỗi nhẹ",
+      "gold": "E85.8",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "21",
+      "text": "Bệnh amyloidosis tự miễn dịch",
+      "gold": "E85.3",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "21",
+      "text": "amyloidosis",
+      "gold": "E85.9",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "26",
+      "text": "xơ vữa động mạch",
+      "gold": "I25.0",
+      "pred": "I25.1"
+    },
+    {
+      "doc_id": "26",
+      "text": "thiếu oxy cơ tim",
+      "gold": "I25.9",
+      "pred": "I25.0"
+    },
+    {
+      "doc_id": "26",
+      "text": "Hội chứng vành cấp",
+      "gold": "I24.9",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "27",
+      "text": "viêm phổi hoại tử",
+      "gold": "J85.0",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "27",
+      "text": "VP",
+      "gold": "NONE",
+      "pred": "K29.6"
+    },
+    {
+      "doc_id": "27",
+      "text": "hoại tử nhu mô phổi",
+      "gold": "J85.0",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "27",
+      "text": "Viêm phổi hoại tử",
+      "gold": "J85.0",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "27",
+      "text": "áp-xe nhỏ (<2cm)",
+      "gold": "J85.1",
+      "pred": "J85.2"
+    },
+    {
+      "doc_id": "27",
+      "text": "Áp xe phổi",
+      "gold": "J85.1",
+      "pred": "J85.2"
+    },
+    {
+      "doc_id": "27",
+      "text": "áp xe phổi",
+      "gold": "J85.1",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "27",
+      "text": "áp-xe phổi",
+      "gold": "J85.1",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "30",
+      "text": "bệnh tim mạch",
+      "gold": "NONE",
+      "pred": "I25.1"
+    },
+    {
+      "doc_id": "32",
+      "text": "bệnh amyloidosis",
+      "gold": "E85.9",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "32",
+      "text": "hẹp ống sống",
+      "gold": "M48.0",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "32",
+      "text": "Bệnh amyloidosis chuỗi nhẹ",
+      "gold": "E85.8",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "32",
+      "text": "Bệnh amyloidosis tự miễn dịch",
+      "gold": "E85.3",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "32",
+      "text": "amyloidosis",
+      "gold": "E85.9",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "32",
+      "text": "amyloidosis",
+      "gold": "E85.9",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "34",
+      "text": "Bệnh lý đau nửa đầu",
+      "gold": "G43.2",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "34",
+      "text": "bệnh đau nửa đầu Migraine",
+      "gold": "G43.2",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "34",
+      "text": "đau nửa đầu",
+      "gold": "G43.2",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "35",
+      "text": "Viêm hang vị sung huyết",
+      "gold": "K29.6",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "36",
+      "text": "viêm cầu thận",
+      "gold": "N05.9",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "38",
+      "text": "hẹp ống sống",
+      "gold": "M48.0",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "40",
+      "text": "Van động mạch chủ cơ học",
+      "gold": "Z95.4",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "40",
+      "text": "Xuất huyết tiêu hóa theo dõi quá liều kháng vitamin K",
+      "gold": "Y63.2",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "40",
+      "text": "Van động mạch chủ cơ",
+      "gold": "NONE",
+      "pred": "Z95.4"
+    },
+    {
+      "doc_id": "46",
+      "text": "stent mạch vành",
+      "gold": "Z95.5",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "46",
+      "text": "stent mạch vành",
+      "gold": "Z95.5",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "46",
+      "text": "Stent mạch vành",
+      "gold": "Z95.5",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "54",
+      "text": "hẹp ống sống",
+      "gold": "M48.0",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "56",
+      "text": "Viêm hang vị sung huyết",
+      "gold": "K29.6",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "58",
+      "text": "tăng HA",
+      "gold": "I10",
+      "pred": "I15"
+    },
+    {
+      "doc_id": "58",
+      "text": "Đái tháo đường typ II",
+      "gold": "E11.9",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "58",
+      "text": "Tăng HA độ III",
+      "gold": "I10",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "64",
+      "text": "bệnh động mạch vành",
+      "gold": "I25.1",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "66",
+      "text": "khối u ung thư",
+      "gold": "C80.9",
+      "pred": "N63"
+    },
+    {
+      "doc_id": "66",
+      "text": "u xơ tuyến vú",
+      "gold": "N60.2",
+      "pred": "N60.0"
+    },
+    {
+      "doc_id": "67",
+      "text": "Viêm hang vị sung huyết",
+      "gold": "K29.6",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "68",
+      "text": "bệnh động mạch vành",
+      "gold": "I25.1",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "69",
+      "text": "trầm cảm",
+      "gold": "NONE",
+      "pred": "F41.2"
+    },
+    {
+      "doc_id": "69",
+      "text": "trầm cảm",
+      "gold": "F32.9",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "7",
+      "text": "viêm bao tử",
+      "gold": "K29.7",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "71",
+      "text": "trầm cảm",
+      "gold": "F32.9",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "73",
+      "text": "amyloidosis",
+      "gold": "E85.9",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "75",
+      "text": "nhiễm nấm",
+      "gold": "B35.6",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "79",
+      "text": "bệnh amyloidosis",
+      "gold": "E85.9",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "79",
+      "text": "amyloidosis",
+      "gold": "E85.9",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "79",
+      "text": "Bệnh amyloidosis chuỗi nhẹ",
+      "gold": "E85.8",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "79",
+      "text": "Bệnh amyloidosis tự miễn dịch",
+      "gold": "E85.3",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "79",
+      "text": "amyloidosis",
+      "gold": "E85.9",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "8",
+      "text": "Suy vành mạn tính",
+      "gold": "I25.9",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "82",
+      "text": "amyloidosis",
+      "gold": "E85.9",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "84",
+      "text": "nhiễm nấm",
+      "gold": "B35.6",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "85",
+      "text": "béo phì",
+      "gold": "E66.9",
+      "pred": "E66.1"
+    },
+    {
+      "doc_id": "86",
+      "text": "Viêm hang vị sung huyết",
+      "gold": "K29.6",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "87",
+      "text": "bệnh tăng HA vô căn(nguyên phát)",
+      "gold": "NONE",
+      "pred": "I10"
+    },
+    {
+      "doc_id": "9",
+      "text": "viêm bao tử",
+      "gold": "K29.7",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "94",
+      "text": "Viêm hang vị sung huyết",
+      "gold": "K29.6",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "99",
+      "text": "Đợt cấp COPD",
+      "gold": "J44.0",
+      "pred": "NONE"
+    },
+    {
+      "doc_id": "99",
+      "text": "Tâm phế mạn",
+      "gold": "I27.9",
+      "pred": "NONE"
+    }
+  ]
+}
