@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RxNorm Drug Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div class="eyebrow"><span class="pulse"></span> LOCAL RXNORM DATABASE</div>
+      <h1>Tìm đúng thuốc.<br><span>Đọc đúng RxCUI.</span></h1>
+      <p>Tra cứu theo tên hoạt chất, biệt dược, synonym hoặc mã RxCUI từ dữ liệu RxNorm trên máy.</p>
+    </header>
+
+    <section class="search-panel" aria-label="Tìm kiếm thuốc">
+      <form id="search-form" role="search">
+        <label for="query">Tên thuốc hoặc RxCUI</label>
+        <div class="search-row">
+          <div class="input-wrap">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.4-4.4m2.4-5.1a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
+            <input id="query" name="q" type="search" autocomplete="off" autofocus
+                   placeholder="Ví dụ: metformin, Vastarel, 860975">
+          </div>
+          <button type="submit">Tìm kiếm</button>
+        </div>
+      </form>
+      <div class="examples">
+        <span>Thử nhanh</span>
+        <button data-query="aspirin 81 mg">aspirin 81 mg</button>
+        <button data-query="Coumadin">Coumadin</button>
+        <button data-query="860975">860975</button>
+      </div>
+    </section>
+
+    <section class="result-section" aria-live="polite">
+      <div class="result-heading">
+        <div>
+          <p class="section-label">KẾT QUẢ</p>
+          <h2 id="result-title">Nhập từ khóa để bắt đầu</h2>
+        </div>
+        <span id="result-count" class="count" hidden></span>
+      </div>
+      <div id="status" class="status">Tìm theo tên thuốc hoặc một mã RxCUI chỉ gồm chữ số.</div>
+      <div id="results" class="results"></div>
+    </section>
+  </main>
+
+  <template id="result-template">
+    <article class="drug-card">
+      <div class="card-top">
+        <div>
+          <span class="match"></span>
+          <h3></h3>
+        </div>
+        <button class="copy" type="button" title="Sao chép RxCUI">Sao chép</button>
+      </div>
+      <div class="metadata">
+        <div><span>RxCUI</span><strong class="rxcui"></strong></div>
+        <div><span>TTY</span><strong class="tty"></strong></div>
+        <div><span>Trạng thái</span><strong class="state"></strong></div>
+      </div>
+      <details>
+        <summary>Các tên và biểu diễn khác</summary>
+        <ul class="synonyms"></ul>
+      </details>
+    </article>
+  </template>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
