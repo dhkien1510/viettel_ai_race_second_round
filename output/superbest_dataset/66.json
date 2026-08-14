@@ -1,0 +1,350 @@
+[
+  {
+    "text": "u lành về tuyến vú",
+    "position": [
+      70,
+      88
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "D24"
+    ]
+  },
+  {
+    "text": "u xơ tuyến vú",
+    "position": [
+      93,
+      106
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "N60.2"
+    ]
+  },
+  {
+    "text": "u nang tuyến vú",
+    "position": [
+      111,
+      126
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isFamily"
+    ],
+    "candidates": [
+      "N60.0"
+    ]
+  },
+  {
+    "text": "vitamin 3b b1 b6 b12",
+    "position": [
+      153,
+      173
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "11251"
+    ]
+  },
+  {
+    "text": "vitamin b12",
+    "position": [
+      237,
+      248
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "11248"
+    ]
+  },
+  {
+    "text": "khối u ung thư",
+    "position": [
+      264,
+      278
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "C80.9"
+    ]
+  },
+  {
+    "text": "khối u lành tính",
+    "position": [
+      305,
+      321
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "D24"
+    ]
+  },
+  {
+    "text": "Vitamin B12",
+    "position": [
+      390,
+      401
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "11248"
+    ]
+  },
+  {
+    "text": "thiếu vitamin B12",
+    "position": [
+      641,
+      658
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm teo niêm mạc dạ dày",
+    "position": [
+      700,
+      724
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "K29.4"
+    ]
+  },
+  {
+    "text": "thiếu B12",
+    "position": [
+      779,
+      788
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ung thư",
+    "position": [
+      958,
+      965
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "B12",
+    "position": [
+      1004,
+      1007
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "11248"
+    ]
+  },
+  {
+    "text": "u nang tuyến vú",
+    "position": [
+      1022,
+      1037
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "N60.0"
+    ]
+  },
+  {
+    "text": "u xơ tuyến vú",
+    "position": [
+      1039,
+      1052
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "N60.2"
+    ]
+  },
+  {
+    "text": "B12",
+    "position": [
+      1097,
+      1100
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "11248"
+    ]
+  },
+  {
+    "text": "ung thư",
+    "position": [
+      1118,
+      1125
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "u nang tuyến vú",
+    "position": [
+      1151,
+      1166
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "N60.0"
+    ]
+  },
+  {
+    "text": "u xơ tuyến vú",
+    "position": [
+      1168,
+      1181
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "N60.2"
+    ]
+  },
+  {
+    "text": "B12",
+    "position": [
+      1199,
+      1202
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "11248"
+    ]
+  },
+  {
+    "text": "thiếu máu",
+    "position": [
+      1254,
+      1263
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "u xơ tuyến vú",
+    "position": [
+      1269,
+      1282
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "N60.2"
+    ]
+  },
+  {
+    "text": "u nang tuyến vú",
+    "position": [
+      1284,
+      1299
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "N60.0"
+    ]
+  },
+  {
+    "text": "cúm",
+    "position": [
+      1381,
+      1384
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "âm tính",
+    "position": [
+      1385,
+      1392
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "position": [
+      1421,
+      1438
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Tăng gánh nhẹ tuần hoàn phổi, tràn dịch màng phổi hai bên nhẹ, tim to",
+    "position": [
+      1440,
+      1509
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "u xơ tuyến vú",
+    "position": [
+      1531,
+      1544
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isFamily"
+    ],
+    "candidates": [
+      "N60.2"
+    ]
+  },
+  {
+    "text": "u nang tuyến vú",
+    "position": [
+      1546,
+      1561
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isFamily"
+    ],
+    "candidates": [
+      "N60.0"
+    ]
+  },
+  {
+    "text": "khối u",
+    "position": [
+      1655,
+      1661
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "N63"
+    ]
+  }
+]

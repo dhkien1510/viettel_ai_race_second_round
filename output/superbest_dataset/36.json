@@ -1,0 +1,704 @@
+[
+  {
+    "text": "nặng mặt",
+    "position": [
+      42,
+      50
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tức nặng 2 chi dưới",
+    "position": [
+      52,
+      71
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiểu ít",
+    "position": [
+      73,
+      80
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Hội chứng thận hư",
+    "position": [
+      187,
+      204
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "N04.8"
+    ]
+  },
+  {
+    "text": "Phù",
+    "position": [
+      212,
+      215
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phù",
+    "position": [
+      308,
+      311
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phù",
+    "position": [
+      324,
+      327
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phù",
+    "position": [
+      381,
+      384
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phù",
+    "position": [
+      408,
+      411
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phù",
+    "position": [
+      421,
+      424
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Protein niệu 24h",
+    "position": [
+      448,
+      464
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Protein máu",
+    "position": [
+      473,
+      484
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Protein",
+    "position": [
+      488,
+      495
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "52 g/l",
+    "position": [
+      497,
+      503
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Albumin",
+    "position": [
+      505,
+      512
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "20 g/l",
+    "position": [
+      514,
+      520
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Triglycerid",
+    "position": [
+      529,
+      540
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "6,7 mmol/l",
+    "position": [
+      541,
+      551
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Tổn thương cầu thận mạn tính",
+    "position": [
+      557,
+      585
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [
+      "N03.9"
+    ]
+  },
+  {
+    "text": "Xét nghiệm nước tiểu protein",
+    "position": [
+      630,
+      658
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "(–),",
+    "position": [
+      659,
+      663
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "HC",
+    "position": [
+      664,
+      666
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "(–)",
+    "position": [
+      667,
+      670
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Trụ niệu",
+    "position": [
+      671,
+      679
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "(–)",
+    "position": [
+      680,
+      683
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "SA",
+    "position": [
+      727,
+      729
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "không có sỏi đài bể thận, niệu quản",
+    "position": [
+      731,
+      766
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm cầu thận",
+    "position": [
+      777,
+      790
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [
+      "N05.9"
+    ]
+  },
+  {
+    "text": "suy thận",
+    "position": [
+      808,
+      816
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Ure",
+    "position": [
+      818,
+      821
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "6,4 mmol/l",
+    "position": [
+      823,
+      833
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Creatinin",
+    "position": [
+      835,
+      844
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "79 micromol/l",
+    "position": [
+      846,
+      859
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thiếu máu",
+    "position": [
+      874,
+      883
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "HC",
+    "position": [
+      885,
+      887
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "4,49 T/l",
+    "position": [
+      889,
+      897
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "HST",
+    "position": [
+      899,
+      902
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "103 g/l",
+    "position": [
+      904,
+      911
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Điện giải",
+    "position": [
+      919,
+      928
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Na+",
+    "position": [
+      930,
+      933
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "141 mmol/l",
+    "position": [
+      935,
+      945
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "K+",
+    "position": [
+      947,
+      949
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "5 mmol/l",
+    "position": [
+      951,
+      959
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Cl",
+    "position": [
+      961,
+      963
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "106 mmol/l",
+    "position": [
+      966,
+      976
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Ca++",
+    "position": [
+      978,
+      982
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "2 mmol/l",
+    "position": [
+      984,
+      992
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm họng cấp",
+    "position": [
+      1020,
+      1033
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical",
+      "isNegated"
+    ],
+    "candidates": [
+      "J02.9"
+    ]
+  },
+  {
+    "text": "viêm nhiễm ngoài da",
+    "position": [
+      1035,
+      1054
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical",
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Viêm cầu thận mạn - Hội chứng thận hư",
+    "position": [
+      1102,
+      1139
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "N04.2"
+    ]
+  },
+  {
+    "text": "protein niệu 24h",
+    "position": [
+      1281,
+      1297
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "protein máu",
+    "position": [
+      1299,
+      1310
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "albumin máu",
+    "position": [
+      1312,
+      1323
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "điện giải đồ",
+    "position": [
+      1325,
+      1337
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "VCTM",
+    "position": [
+      1504,
+      1508
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phù",
+    "position": [
+      1561,
+      1564
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng lipid máu",
+    "position": [
+      1566,
+      1580
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "giảm thải protein",
+    "position": [
+      1582,
+      1599
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Medrol 16mg x 3 viên, uống 8h sáng sau ăn no",
+    "position": [
+      1642,
+      1686
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "207138"
+    ]
+  },
+  {
+    "text": "Omez 20mg x 1 viên, uống 8h sáng",
+    "position": [
+      1697,
+      1729
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "316408"
+    ]
+  },
+  {
+    "text": "Furosemid 40 mg x 1 viên, uống sáng",
+    "position": [
+      1741,
+      1776
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "313988"
+    ]
+  },
+  {
+    "text": "FNA",
+    "position": [
+      1826,
+      1829
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "một nốt sần tuyến giáp phải có cấu trúc vi nang",
+    "position": [
+      1834,
+      1881
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau vùng hạ sườn phải",
+    "position": [
+      1908,
+      1929
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "siêu âm",
+    "position": [
+      1972,
+      1979
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sỏi mật",
+    "position": [
+      1989,
+      1996
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Zestril 10mg x 1 viên, uống sáng",
+    "position": [
+      2007,
+      2039
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "104377"
+    ]
+  }
+]

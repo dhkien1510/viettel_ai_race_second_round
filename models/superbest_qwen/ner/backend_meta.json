@@ -1,0 +1,20 @@
+{
+  "backend": "qwen_token_ner",
+  "base_model": "Qwen/Qwen2.5-3B-Instruct",
+  "max_len": 1024,
+  "stride": 256,
+  "labels": [
+    "O",
+    "B-CHẨN_ĐOÁN",
+    "I-CHẨN_ĐOÁN",
+    "B-KẾT_QUẢ_XÉT_NGHIỆM",
+    "I-KẾT_QUẢ_XÉT_NGHIỆM",
+    "B-THUỐC",
+    "I-THUỐC",
+    "B-TRIỆU_CHỨNG",
+    "I-TRIỆU_CHỨNG",
+    "B-TÊN_XÉT_NGHIỆM",
+    "I-TÊN_XÉT_NGHIỆM"
+  ],
+  "labels_source_used_only_during_training": "output/superbest_dataset"
+}

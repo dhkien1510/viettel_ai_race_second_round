@@ -1,0 +1,342 @@
+[
+  {
+    "text": "Bệnh Kawasaki",
+    "position": [
+      3,
+      16
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "M30.3"
+    ]
+  },
+  {
+    "text": "Bệnh Kawasaki",
+    "position": [
+      25,
+      38
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "M30.3"
+    ]
+  },
+  {
+    "text": "viêm tim",
+    "position": [
+      555,
+      563
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phình giãn động mạch vành",
+    "position": [
+      565,
+      590
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "I25.4"
+    ]
+  },
+  {
+    "text": "đột tử",
+    "position": [
+      592,
+      598
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "R96.0"
+    ]
+  },
+  {
+    "text": "nhồi máu cơ tim",
+    "position": [
+      600,
+      615
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hẹp tắc mạch vành",
+    "position": [
+      622,
+      639
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "I25.8"
+    ]
+  },
+  {
+    "text": "suy tim",
+    "position": [
+      644,
+      651
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Kawasaki",
+    "position": [
+      670,
+      678
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "M30.3"
+    ]
+  },
+  {
+    "text": "bệnh viêm mạch máu",
+    "position": [
+      682,
+      700
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh Kawasaki",
+    "position": [
+      775,
+      788
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "M30.3"
+    ]
+  },
+  {
+    "text": "bệnh Kawasaki",
+    "position": [
+      1336,
+      1349
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "M30.3"
+    ]
+  },
+  {
+    "text": "Viêm kết mạc 2 bên",
+    "position": [
+      1544,
+      1562
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Bệnh đa xơ cứng",
+    "position": [
+      1916,
+      1931
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [
+      "G35"
+    ]
+  },
+  {
+    "text": "Ảo giác do rượu",
+    "position": [
+      1971,
+      1986
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "loạn thần",
+    "position": [
+      2030,
+      2039
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Công thức máu",
+    "position": [
+      2042,
+      2055
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "CRP",
+    "position": [
+      2057,
+      2060
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "máu lắng",
+    "position": [
+      2062,
+      2070
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Men gan",
+    "position": [
+      2074,
+      2081
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "albumin",
+    "position": [
+      2083,
+      2090
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Xét nghiệm nước tiểu",
+    "position": [
+      2094,
+      2114
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Cấy máu, dịch hầu họng",
+    "position": [
+      2118,
+      2140
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Siêu âm tim",
+    "position": [
+      2144,
+      2155
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ECG điện tâm đồ",
+    "position": [
+      2204,
+      2219
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh Kawasaki",
+    "position": [
+      2233,
+      2246
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "M30.3"
+    ]
+  },
+  {
+    "text": "huyết khối",
+    "position": [
+      2634,
+      2644
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "siêu âm tim",
+    "position": [
+      2841,
+      2852
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Kawasaki",
+    "position": [
+      3036,
+      3044
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "M30.3"
+    ]
+  },
+  {
+    "text": "tổn thương vành mạch",
+    "position": [
+      3289,
+      3309
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "I25.8"
+    ]
+  },
+  {
+    "text": "Bệnh Kawasaki",
+    "position": [
+      3407,
+      3420
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "M30.3"
+    ]
+  }
+]

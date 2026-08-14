@@ -1,0 +1,276 @@
+[
+  {
+    "text": "viêm phổi hoại tử",
+    "position": [
+      20,
+      37
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "J85.0"
+    ]
+  },
+  {
+    "text": "viêm phổi",
+    "position": [
+      68,
+      77
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "VP",
+    "position": [
+      135,
+      137
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "VPHT",
+    "position": [
+      141,
+      145
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Viêm phổi",
+    "position": [
+      211,
+      220
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm phế quản, phế nang",
+    "position": [
+      235,
+      258
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Viêm phổi tiến triển nặng",
+    "position": [
+      391,
+      416
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhiễm vi khuẩn nặng",
+    "position": [
+      445,
+      464
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "suy giảm miễn dịch",
+    "position": [
+      529,
+      547
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hoại tử nhu mô phổi",
+    "position": [
+      551,
+      570
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "J85.0"
+    ]
+  },
+  {
+    "text": "Viêm phổi hoại tử",
+    "position": [
+      572,
+      589
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "J85.0"
+    ]
+  },
+  {
+    "text": "áp-xe nhỏ (<2cm)",
+    "position": [
+      660,
+      676
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "J85.1"
+    ]
+  },
+  {
+    "text": "Áp xe phổi",
+    "position": [
+      748,
+      758
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "J85.1"
+    ]
+  },
+  {
+    "text": "áp xe phổi",
+    "position": [
+      1143,
+      1153
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "J85.1"
+    ]
+  },
+  {
+    "text": "ổ áp xe",
+    "position": [
+      1346,
+      1353
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau đầu",
+    "position": [
+      1488,
+      1495
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau đầu kéo dài",
+    "position": [
+      1538,
+      1553
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhìn mờ",
+    "position": [
+      1560,
+      1567
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "cơn  đau đầu nhiều hơn",
+    "position": [
+      1616,
+      1638
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhìn mờ",
+    "position": [
+      1670,
+      1677
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau đầu",
+    "position": [
+      1741,
+      1748
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phù gai thị",
+    "position": [
+      1909,
+      1920
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Phù gai thị",
+    "position": [
+      1999,
+      2010
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Tăng nhãn áp",
+    "position": [
+      2114,
+      2126
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chụp cắt lớp vi tính (ct) đầu",
+    "position": [
+      2134,
+      2163
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "áp-xe phổi",
+    "position": [
+      2255,
+      2265
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "J85.1"
+    ]
+  }
+]

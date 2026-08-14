@@ -1,0 +1,108 @@
+[
+  {
+    "text": "Đo sức bền cơ tim bằng đồng vị phóng xạ",
+    "position": [
+      68,
+      107
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "dị tật cố định vùng trước vách và vách dưới với  giảm chức năng tâm thu thất trái nghiêm trọng kèm theo rối loạn chức năng thất trái",
+    "position": [
+      119,
+      251
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Chụp động mạch vành",
+    "position": [
+      255,
+      274
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh ba thân động mạch vành nghiêm trọng",
+    "position": [
+      284,
+      324
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Chụp động mạch vành",
+    "position": [
+      355,
+      374
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Viêm hang vị sung huyết",
+    "position": [
+      411,
+      434
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "K29.6"
+    ]
+  },
+  {
+    "text": "bệnh dạ dày",
+    "position": [
+      641,
+      652
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm sung huyết hang vị dạ dày",
+    "position": [
+      801,
+      831
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "K29.6"
+    ]
+  },
+  {
+    "text": "nội soi dạ dày",
+    "position": [
+      887,
+      901
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm sung huyết hang vị dạ dày",
+    "position": [
+      1281,
+      1311
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "K29.6"
+    ]
+  }
+]

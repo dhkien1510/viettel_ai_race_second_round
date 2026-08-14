@@ -1,0 +1,108 @@
+[
+  {
+    "text": "ho",
+    "position": [
+      29,
+      31
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nghẹt ngực",
+    "position": [
+      38,
+      48
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khó thở nhẹ-vừa",
+    "position": [
+      55,
+      70
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "position": [
+      71,
+      91
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mệt mỏi",
+    "position": [
+      98,
+      105
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Viêm hang vị sung huyết",
+    "position": [
+      132,
+      155
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "K29.6"
+    ]
+  },
+  {
+    "text": "bệnh dạ dày",
+    "position": [
+      362,
+      373
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm sung huyết hang vị dạ dày",
+    "position": [
+      522,
+      552
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "K29.6"
+    ]
+  },
+  {
+    "text": "nội soi dạ dày",
+    "position": [
+      608,
+      622
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm sung huyết hang vị dạ dày",
+    "position": [
+      1002,
+      1032
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "K29.6"
+    ]
+  }
+]

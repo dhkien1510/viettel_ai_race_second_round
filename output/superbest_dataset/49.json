@@ -1,0 +1,220 @@
+[
+  {
+    "text": "bệnh rụng tóc từng mảng",
+    "position": [
+      30,
+      53
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L63.9"
+    ]
+  },
+  {
+    "text": "Ung thư vú di căn",
+    "position": [
+      195,
+      212
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tràn dịch màng phổi trái tái phát",
+    "position": [
+      214,
+      247
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khó thở",
+    "position": [
+      286,
+      293
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tràn dịch màng ngoài tim mức độ trung bình",
+    "position": [
+      326,
+      368
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "I31.3"
+    ]
+  },
+  {
+    "text": "ung thư di căn theo đường bạch huyết ở hai phổi",
+    "position": [
+      397,
+      444
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "rụng tóc từng vùng",
+    "position": [
+      639,
+      657
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L63.9"
+    ]
+  },
+  {
+    "text": "Corticosteroid",
+    "position": [
+      742,
+      756
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "corticoid ",
+    "position": [
+      916,
+      926
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "rụng tóc toàn bộ",
+    "position": [
+      948,
+      964
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L63.1"
+    ]
+  },
+  {
+    "text": "rụng tóc toàn thể",
+    "position": [
+      970,
+      987
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L63.1"
+    ]
+  },
+  {
+    "text": "diphenylcyclopropenone (diphencyprone)",
+    "position": [
+      1284,
+      1322
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "dinitrochlorobenzene",
+    "position": [
+      1326,
+      1346
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "rụng tóc",
+    "position": [
+      1366,
+      1374
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L63.9"
+    ]
+  },
+  {
+    "text": "viêm da tiếp xúc dị ứng",
+    "position": [
+      1389,
+      1412
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "rụng tóc",
+    "position": [
+      1467,
+      1475
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L63.9"
+    ]
+  },
+  {
+    "text": "viêm da tiếp xúc",
+    "position": [
+      1517,
+      1533
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mày đay",
+    "position": [
+      1535,
+      1542
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L50.1"
+    ]
+  },
+  {
+    "text": "bạch biến",
+    "position": [
+      1570,
+      1579
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L80"
+    ]
+  },
+  {
+    "text": "psoralen",
+    "position": [
+      1598,
+      1606
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": []
+  }
+]

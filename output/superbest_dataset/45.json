@@ -1,0 +1,331 @@
+[
+  {
+    "text": "chụp cắt lớp vi tính (ct) đầu",
+    "position": [
+      110,
+      139
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng đau đầu",
+    "position": [
+      160,
+      172
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "chứng đau đầu",
+    "position": [
+      257,
+      270
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "phù gai thị",
+    "position": [
+      353,
+      364
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical",
+      "isNegated"
+    ],
+    "candidates": [
+      "H47.1"
+    ]
+  },
+  {
+    "text": "não úng thuỷ khác từ thời kỳ sơ sinh",
+    "position": [
+      388,
+      424
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "tăng nhãn áp",
+    "position": [
+      504,
+      516
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau đầu kéo dài",
+    "position": [
+      703,
+      718
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mờ mắt",
+    "position": [
+      728,
+      734
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhìn mờ",
+    "position": [
+      772,
+      779
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "não úng tuỷ",
+    "position": [
+      846,
+      857
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "não úng thủy",
+    "position": [
+      968,
+      980
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "tăng đau đầu",
+    "position": [
+      995,
+      1007
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau đầu",
+    "position": [
+      1109,
+      1116
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "không có phù gai thị",
+    "position": [
+      1183,
+      1203
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mờ mắt",
+    "position": [
+      1237,
+      1243
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Tổng phân tích tế bào máu ngoại vi",
+    "position": [
+      1335,
+      1369
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Thời gian prothrombin",
+    "position": [
+      1393,
+      1414
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "PT",
+    "position": [
+      1416,
+      1418
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Prothrombin Time",
+    "position": [
+      1421,
+      1437
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "TQ",
+    "position": [
+      1455,
+      1457
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Tỷ lệ \nProthrombin",
+    "position": [
+      1459,
+      1477
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Định lượng \nTroponin Ths",
+    "position": [
+      1498,
+      1522
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Định lượng NT - proBNP ( ProBNP)",
+    "position": [
+      1524,
+      1556
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Đo hoạt độ AST (GOT)",
+    "position": [
+      1559,
+      1579
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Đo hoạt độ ALT (GPT)",
+    "position": [
+      1581,
+      1601
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Định lượng Creatinin (máu)",
+    "position": [
+      1604,
+      1630
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Điện giải đồ (Na, K, \nCl",
+    "position": [
+      1632,
+      1656
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Dị tật còn ống động mạch",
+    "position": [
+      1670,
+      1694
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "Q25.0"
+    ]
+  },
+  {
+    "text": "Tăng nhãn áp",
+    "position": [
+      1772,
+      1784
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chụp cắt lớp vi tính (ct) đầu",
+    "position": [
+      1792,
+      1821
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Phù gai thị",
+    "position": [
+      1863,
+      1874
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "H47.1"
+    ]
+  }
+]

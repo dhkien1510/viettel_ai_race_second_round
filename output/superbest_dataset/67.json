@@ -1,0 +1,130 @@
+[
+  {
+    "text": "suy tim",
+    "position": [
+      30,
+      37
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh mạch máu ngoại biên",
+    "position": [
+      44,
+      68
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "bệnh phổi tắc nghẽn mạn tính",
+    "position": [
+      75,
+      103
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "J44.9"
+    ]
+  },
+  {
+    "text": "Ngưng thở khi ngủ do tắc nghẽn",
+    "position": [
+      110,
+      140
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "G47.3"
+    ]
+  },
+  {
+    "text": "Ung thư biểu mô tế bào vảy xâm nhập của dương vậtbiệt hóa kém",
+    "position": [
+      163,
+      224
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "bờ diện cắt dương tính",
+    "position": [
+      250,
+      272
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Viêm hang vị sung huyết",
+    "position": [
+      336,
+      359
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "K29.6"
+    ]
+  },
+  {
+    "text": "bệnh dạ dày",
+    "position": [
+      566,
+      577
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm sung huyết hang vị dạ dày",
+    "position": [
+      726,
+      756
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "K29.6"
+    ]
+  },
+  {
+    "text": "nội soi dạ dày",
+    "position": [
+      812,
+      826
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm sung huyết hang vị dạ dày",
+    "position": [
+      1206,
+      1236
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "K29.6"
+    ]
+  }
+]

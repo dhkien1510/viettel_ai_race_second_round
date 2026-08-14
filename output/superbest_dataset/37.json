@@ -1,0 +1,86 @@
+[
+  {
+    "text": "cực kỳ đau đớn",
+    "position": [
+      983,
+      997
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ban đỏ",
+    "position": [
+      1087,
+      1093
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chảy mủ",
+    "position": [
+      1095,
+      1102
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bactrim",
+    "position": [
+      1211,
+      1218
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "151399"
+    ]
+  },
+  {
+    "text": "doxycycline",
+    "position": [
+      1222,
+      1233
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "3640"
+    ]
+  },
+  {
+    "text": "Viêm mô tế bào",
+    "position": [
+      1256,
+      1270
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ban đỏ",
+    "position": [
+      1310,
+      1316
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "dịch tiết có vẻ như mủ",
+    "position": [
+      1323,
+      1345
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  }
+]

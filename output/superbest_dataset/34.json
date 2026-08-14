@@ -1,0 +1,198 @@
+[
+  {
+    "text": "Bệnh lý đau nửa đầu",
+    "position": [
+      336,
+      355
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "G43.2"
+    ]
+  },
+  {
+    "text": "bệnh đau nửa đầu Migraine",
+    "position": [
+      371,
+      396
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "G43.2"
+    ]
+  },
+  {
+    "text": "đau nửa đầu",
+    "position": [
+      544,
+      555
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "G43.2"
+    ]
+  },
+  {
+    "text": "viêm xoang",
+    "position": [
+      974,
+      984
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "suy giảm trí nhớ",
+    "position": [
+      1123,
+      1139
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "trầm cảm",
+    "position": [
+      1156,
+      1164
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đột quỵ",
+    "position": [
+      1177,
+      1184
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "suy thoái võng mạc",
+    "position": [
+      1222,
+      1240
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mù vĩnh viễn",
+    "position": [
+      1257,
+      1269
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "gleevec",
+    "position": [
+      1389,
+      1396
+    ],
+    "type": "THUỐC",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "282386"
+    ]
+  },
+  {
+    "text": "allopurinol",
+    "position": [
+      1438,
+      1449
+    ],
+    "type": "THUỐC",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "519"
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "position": [
+      1562,
+      1569
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ảo giác",
+    "position": [
+      1650,
+      1657
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+    "position": [
+      1714,
+      1764
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "N39.0"
+    ]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+    "position": [
+      1863,
+      1913
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "N39.0"
+    ]
+  },
+  {
+    "text": "gleevec",
+    "position": [
+      1950,
+      1957
+    ],
+    "type": "THUỐC",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "282386"
+    ]
+  },
+  {
+    "text": "allopurinol",
+    "position": [
+      1996,
+      2007
+    ],
+    "type": "THUỐC",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "519"
+    ]
+  }
+]

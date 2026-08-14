@@ -1,0 +1,400 @@
+[
+  {
+    "text": "Rối loạn chuyển hóa tinh bột (amyloidosis)",
+    "position": [
+      29,
+      71
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isFamily"
+    ],
+    "candidates": [
+      "E85.9"
+    ]
+  },
+  {
+    "text": "Bệnh thoái hóa tinh bột",
+    "position": [
+      308,
+      331
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.9"
+    ]
+  },
+  {
+    "text": "bệnh amyloidosis",
+    "position": [
+      337,
+      353
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.9"
+    ]
+  },
+  {
+    "text": "bệnh thoái hóa tinh bột",
+    "position": [
+      806,
+      829
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.3"
+    ]
+  },
+  {
+    "text": "bệnh thoái hóa tinh bột",
+    "position": [
+      989,
+      1012
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.9"
+    ]
+  },
+  {
+    "text": "ung thư",
+    "position": [
+      1043,
+      1050
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ung thư máu",
+    "position": [
+      1094,
+      1105
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đa u tủy",
+    "position": [
+      1110,
+      1118
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "C90.0"
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "position": [
+      1134,
+      1145
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.9"
+    ]
+  },
+  {
+    "text": "Bệnh amyloidosis chuỗi nhẹ",
+    "position": [
+      1190,
+      1216
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.8"
+    ]
+  },
+  {
+    "text": "Bệnh amyloidosis tự miễn dịch",
+    "position": [
+      1226,
+      1255
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.3"
+    ]
+  },
+  {
+    "text": "Bệnh amyloidosis di truyền hoặc gia đình",
+    "position": [
+      1265,
+      1305
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.2"
+    ]
+  },
+  {
+    "text": "Bệnh thoái hóa tinh bột",
+    "position": [
+      1306,
+      1329
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.8"
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "position": [
+      1444,
+      1455
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.9"
+    ]
+  },
+  {
+    "text": "đau bụng vùng hạ sườn phải",
+    "position": [
+      1605,
+      1631
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chướng bụng",
+    "position": [
+      1638,
+      1649
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn thoáng qua",
+    "position": [
+      1657,
+      1676
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Nôn mửa",
+    "position": [
+      1683,
+      1690
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau lưng âm ỉ",
+    "position": [
+      1711,
+      1724
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng hạ sườn phải",
+    "position": [
+      1764,
+      1785
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau lưng",
+    "position": [
+      1787,
+      1795
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng",
+    "position": [
+      1928,
+      1936
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chướng bụng",
+    "position": [
+      1938,
+      1949
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chướng bụng",
+    "position": [
+      1984,
+      1995
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "buồn nôn",
+    "position": [
+      1998,
+      2006
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nôn",
+    "position": [
+      2019,
+      2022
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau lưng",
+    "position": [
+      2024,
+      2032
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nội soi thực quản - dạ dày - tá tràng",
+    "position": [
+      2093,
+      2130
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm dạ dày",
+    "position": [
+      2159,
+      2170
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "NSAIDs",
+    "position": [
+      2195,
+      2201
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "omeprazole",
+    "position": [
+      2222,
+      2232
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "Chụp cộng hưởng từ mật tụy",
+    "position": [
+      2234,
+      2260
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sỏi đoạn cuối ống mật chủ",
+    "position": [
+      2271,
+      2296
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Xét nghiệm chức năng gan",
+    "position": [
+      2298,
+      2322
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "men gan tăng",
+    "position": [
+      2332,
+      2344
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Xét nghiệm chức năng gan",
+    "position": [
+      2449,
+      2473
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng men gan",
+    "position": [
+      2483,
+      2495
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  }
+]

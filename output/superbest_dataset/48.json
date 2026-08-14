@@ -1,0 +1,26 @@
+[
+  {
+    "text": "dị tật thiểu sản vành tai",
+    "position": [
+      1042,
+      1067
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "Q17.2"
+    ]
+  },
+  {
+    "text": "tịt ống tai ngoài bẩm sinh",
+    "position": [
+      1071,
+      1097
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "Q16.1"
+    ]
+  }
+]

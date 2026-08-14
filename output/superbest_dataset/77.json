@@ -1,0 +1,186 @@
+[
+  {
+    "text": "đau vùng xương bánh chè – đùi phải dữ dội",
+    "position": [
+      73,
+      114
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau đầu gối phải",
+    "position": [
+      202,
+      218
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Đau bánh chè đùi phải dữ dội",
+    "position": [
+      434,
+      462
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau đau dữ dội",
+    "position": [
+      495,
+      509
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau đầu gối phải",
+    "position": [
+      609,
+      625
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Siêu âm ổ bụng (gan mật, tụy, lách, thận, bàng quang)+",
+    "position": [
+      626,
+      680
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Hình ảnh giãn nh đường mật trong gan hai bên",
+    "position": [
+      681,
+      725
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Siêu âm Doppler tim, van tim",
+    "position": [
+      728,
+      756
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Buồng thất trái giãn, chức năng tâm thu thất trái giảm nhiều (EF BP: 28%). Hở hai lá vừa. Hở chủ nhẹ. Hở ba lá nhiều. Thất phải giãn, chức năng tâm thu thất phải giảm (FAC: 30%). Tăng áp lực động mạch phổi vừa",
+    "position": [
+      759,
+      968
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Chụp Xquang ngực thẳng",
+    "position": [
+      972,
+      994
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Hình ảnh bóng tim to",
+    "position": [
+      996,
+      1016
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "suy tim",
+    "position": [
+      1029,
+      1036
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "suy thận mạn giai đoạn 5",
+    "position": [
+      1039,
+      1063
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "N18.5"
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "position": [
+      1063,
+      1076
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "x-quang",
+    "position": [
+      1409,
+      1416
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "những thay đổi thoái hóa nghiêm trọng của khớp bánh chè đùi phải",
+    "position": [
+      1443,
+      1507
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "position": [
+      1514,
+      1534
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "góc tăng lên",
+    "position": [
+      1569,
+      1581
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  }
+]

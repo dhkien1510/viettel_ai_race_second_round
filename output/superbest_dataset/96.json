@@ -1,0 +1,94 @@
+[
+  {
+    "text": "chụp cắt lớp vi tính (ct)",
+    "position": [
+      57,
+      82
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tắc hẹp 80% động mạch thận trái L",
+    "position": [
+      107,
+      140
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chụp cắt lớp vi tính (ct)",
+    "position": [
+      201,
+      226
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tắc hẹp 80% động mạch thận trái L",
+    "position": [
+      236,
+      269
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "làn da nhạy cảm",
+    "position": [
+      317,
+      332
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Môi bong vẩy trắng",
+    "position": [
+      592,
+      610
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "môi khô",
+    "position": [
+      635,
+      642
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhiều  da chết",
+    "position": [
+      646,
+      660
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "vitamin C",
+    "position": [
+      1301,
+      1310
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "1151"
+    ]
+  }
+]

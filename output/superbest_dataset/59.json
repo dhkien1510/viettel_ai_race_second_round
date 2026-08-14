@@ -1,0 +1,158 @@
+[
+  {
+    "text": "mụn trứng cá",
+    "position": [
+      69,
+      81
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L70.0"
+    ]
+  },
+  {
+    "text": "Phổi thông khí đều",
+    "position": [
+      668,
+      686
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nước tiểu có cặn",
+    "position": [
+      703,
+      719
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "lactate",
+    "position": [
+      737,
+      744
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "1.1-->0.8",
+    "position": [
+      745,
+      754
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Cấy nước tiểu",
+    "position": [
+      757,
+      770
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu có các vi khuẩn hỗn hợp",
+    "position": [
+      773,
+      824
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "cấy máu",
+    "position": [
+      827,
+      834
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "âm tính",
+    "position": [
+      836,
+      843
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chỉ số marker viêm",
+    "position": [
+      845,
+      863
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đã có xu hướng tăng",
+    "position": [
+      875,
+      894
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "MRI",
+    "position": [
+      920,
+      923
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "không thấy tình trạng viêm xương tủy nặng hơn",
+    "position": [
+      926,
+      971
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Viêm tại chỗ",
+    "position": [
+      1019,
+      1031
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "Y56.0"
+    ]
+  },
+  {
+    "text": "mụn trứng cá",
+    "position": [
+      1060,
+      1072
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L70.0"
+    ]
+  }
+]

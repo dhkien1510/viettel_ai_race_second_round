@@ -1,0 +1,288 @@
+[
+  {
+    "text": "béo phì",
+    "position": [
+      48,
+      55
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E66.1"
+    ]
+  },
+  {
+    "text": "đái tháo đường",
+    "position": [
+      62,
+      76
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "ngừng thở khi ngủ",
+    "position": [
+      113,
+      130
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "G47.3"
+    ]
+  },
+  {
+    "text": "suy tim, không đặc hiệu",
+    "position": [
+      154,
+      177
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I50.9"
+    ]
+  },
+  {
+    "text": "furosemide",
+    "position": [
+      197,
+      207
+    ],
+    "type": "THUỐC",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "4603"
+    ]
+  },
+  {
+    "text": "khó thở",
+    "position": [
+      256,
+      263
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khó thở",
+    "position": [
+      362,
+      369
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khó thở",
+    "position": [
+      441,
+      448
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khó nằm",
+    "position": [
+      455,
+      462
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "căng cứng vai trái",
+    "position": [
+      495,
+      513
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ho có đờm trắng",
+    "position": [
+      582,
+      597
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "chủ quan sốt",
+    "position": [
+      604,
+      616
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phù chi dưới",
+    "position": [
+      623,
+      635
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "căng cứng vai trái",
+    "position": [
+      685,
+      703
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "căng cứng vai trái",
+    "position": [
+      737,
+      755
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "căng cứng vai trái",
+    "position": [
+      798,
+      816
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khó nằm",
+    "position": [
+      847,
+      854
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khó thở",
+    "position": [
+      877,
+      884
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ho có đờm trắng",
+    "position": [
+      886,
+      901
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chủ quan sốt",
+    "position": [
+      903,
+      915
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "phù chi dưới",
+    "position": [
+      917,
+      929
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thiếu oxy",
+    "position": [
+      1083,
+      1092
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tổn thương sụn chêm",
+    "position": [
+      1378,
+      1397
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "aspirin 325mg",
+    "position": [
+      1708,
+      1721
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "212033"
+    ]
+  },
+  {
+    "text": "albuterolipratropium nebulizer",
+    "position": [
+      1737,
+      1767
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "214199"
+    ]
+  },
+  {
+    "text": "methylprednisolone 125mg iv",
+    "position": [
+      1783,
+      1810
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "1743704"
+    ]
+  }
+]

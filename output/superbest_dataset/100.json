@@ -1,0 +1,60 @@
+[
+  {
+    "text": "tiền sản giật",
+    "position": [
+      157,
+      173
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "O14.9"
+    ]
+  },
+  {
+    "text": "tiền sản giật",
+    "position": [
+      584,
+      597
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "O14.9"
+    ]
+  },
+  {
+    "text": "tiền sản giật",
+    "position": [
+      616,
+      629
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "O14.9"
+    ]
+  },
+  {
+    "text": "tiền sản giật",
+    "position": [
+      664,
+      677
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "O14.9"
+    ]
+  },
+  {
+    "text": "đại tiện ra máu đỏ tươi gián đoạn",
+    "position": [
+      1219,
+      1252
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  }
+]

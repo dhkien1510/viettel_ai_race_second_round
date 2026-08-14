@@ -1,0 +1,17 @@
+torch>=2.5.0
+transformers>=4.46.0,<5.0.0
+peft>=0.12.0
+accelerate>=0.33.0
+datasets>=2.19.0
+bitsandbytes>=0.43.0
+scikit-learn>=1.4.0
+sentencepiece>=0.2.0
+safetensors>=0.4.0
+pyyaml>=6.0
+numpy>=1.24.0
+scipy>=1.10.0
+tqdm>=4.66.0
+FlagEmbedding>=1.2.0
+faiss-cpu>=1.8.0
+sentence-transformers>=5.0.0
+rapidfuzz>=3.0.0

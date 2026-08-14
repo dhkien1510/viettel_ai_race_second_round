@@ -1,0 +1,260 @@
+[
+  {
+    "text": "chảy máu chân răng",
+    "position": [
+      452,
+      470
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Viêm quanh răng",
+    "position": [
+      613,
+      628
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhiễm vi khuẩn",
+    "position": [
+      677,
+      691
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sang chấn răng",
+    "position": [
+      693,
+      707
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Viêm nha chu",
+    "position": [
+      712,
+      724
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Viêm nha chu",
+    "position": [
+      856,
+      868
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mất răng",
+    "position": [
+      931,
+      939
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "K08.1"
+    ]
+  },
+  {
+    "text": "viêm khớp dạng thấp",
+    "position": [
+      945,
+      964
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đột quỵ",
+    "position": [
+      983,
+      990
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Thiếu hụt canxi",
+    "position": [
+      1021,
+      1036
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "loãng xương",
+    "position": [
+      1044,
+      1055
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sâu răng",
+    "position": [
+      1057,
+      1065
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm nha chu",
+    "position": [
+      1083,
+      1095
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thiếu hụt vitamin K",
+    "position": [
+      1150,
+      1169
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E56.1"
+    ]
+  },
+  {
+    "text": "Tiểu đường",
+    "position": [
+      1173,
+      1183
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh tiểu đường",
+    "position": [
+      1233,
+      1248
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiểu đường",
+    "position": [
+      1313,
+      1323
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Kháng histamin H1",
+    "position": [
+      1590,
+      1607
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mất răng",
+    "position": [
+      1834,
+      1842
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "K08.1"
+    ]
+  },
+  {
+    "text": "bệnh mạch máu ngoại biên",
+    "position": [
+      1850,
+      1874
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "bệnh phổi tắc nghẽn mạn tính",
+    "position": [
+      1881,
+      1909
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "J44.9"
+    ]
+  },
+  {
+    "text": "Ngưng thở khi ngủ do tắc nghẽn",
+    "position": [
+      1916,
+      1946
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "G47.3"
+    ]
+  },
+  {
+    "text": "Ung thư biểu mô tế bào vảy xâm nhập của dương vậtbiệt hóa kém",
+    "position": [
+      1969,
+      2030
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "bờ diện cắt dương tính",
+    "position": [
+      2056,
+      2078
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "text": "bệnh động mạch vành",
+    "position": [
+      62,
+      81
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isFamily"
+    ],
+    "candidates": [
+      "I25.1"
+    ]
+  },
+  {
+    "text": "Vastarel",
+    "position": [
+      129,
+      137
+    ],
+    "type": "THUỐC",
+    "assertions": [
+      "isFamily"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Vastarel",
+    "position": [
+      243,
+      251
+    ],
+    "type": "THUỐC",
+    "assertions": [
+      "isFamily"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "bệnh Graves",
+    "position": [
+      283,
+      294
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng lipid máu, không đặc hiệu",
+    "position": [
+      301,
+      331
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E78.5"
+    ]
+  },
+  {
+    "text": "run tay",
+    "position": [
+      417,
+      424
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "trimetazidine",
+    "position": [
+      518,
+      531
+    ],
+    "type": "THUỐC",
+    "assertions": [
+      "isFamily"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "run tay",
+    "position": [
+      725,
+      732
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Nitramyl 2,5 mg/viên (nitroglycerin)",
+    "position": [
+      810,
+      846
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "316375"
+    ]
+  },
+  {
+    "text": "bệnh mạch vành",
+    "position": [
+      969,
+      983
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "I25.1"
+    ]
+  },
+  {
+    "text": "tụt huyết áp thế đứng",
+    "position": [
+      1251,
+      1272
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "I95.1"
+    ]
+  },
+  {
+    "text": "Nitramyl",
+    "position": [
+      1508,
+      1516
+    ],
+    "type": "THUỐC",
+    "assertions": [
+      "isFamily"
+    ],
+    "candidates": [
+      "4917"
+    ]
+  }
+]

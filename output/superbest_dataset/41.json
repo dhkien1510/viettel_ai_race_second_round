@@ -1,0 +1,118 @@
+[
+  {
+    "text": "mụn trứng cá",
+    "position": [
+      80,
+      92
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L70.0"
+    ]
+  },
+  {
+    "text": "Trứng cá",
+    "position": [
+      681,
+      689
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L70.0"
+    ]
+  },
+  {
+    "text": "Trứng cá",
+    "position": [
+      808,
+      816
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L70.0"
+    ]
+  },
+  {
+    "text": "Viêm tại chỗ",
+    "position": [
+      926,
+      938
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "Y56.0"
+    ]
+  },
+  {
+    "text": "Tretinoin",
+    "position": [
+      962,
+      971
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "10753"
+    ]
+  },
+  {
+    "text": "Trứng cá viêm nhẹ",
+    "position": [
+      982,
+      999
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L70.0"
+    ]
+  },
+  {
+    "text": "đau ngực trái cấp tính",
+    "position": [
+      1115,
+      1137
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau sau xương ức lan ra sau lưng",
+    "position": [
+      1141,
+      1173
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "trứng cá",
+    "position": [
+      1250,
+      1258
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L70.0"
+    ]
+  },
+  {
+    "text": "mụn trứng cá",
+    "position": [
+      1333,
+      1345
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L70.0"
+    ]
+  }
+]

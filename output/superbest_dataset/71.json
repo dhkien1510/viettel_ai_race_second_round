@@ -1,0 +1,100 @@
+[
+  {
+    "text": "trầm cảm",
+    "position": [
+      106,
+      114
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [
+      "F32.9"
+    ]
+  },
+  {
+    "text": "ý định tự tử",
+    "position": [
+      146,
+      158
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "tổn thương tổn thương chi dưới nghiêm trọng",
+    "position": [
+      173,
+      216
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thuyên tắc phổi hai bên",
+    "position": [
+      319,
+      342
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin",
+    "position": [
+      346,
+      408
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm nang lông",
+    "position": [
+      914,
+      928
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "suy giảm chức năng gan",
+    "position": [
+      1387,
+      1409
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nổi mề đay",
+    "position": [
+      1411,
+      1421
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L50.1"
+    ]
+  },
+  {
+    "text": "bệnh vảy nến",
+    "position": [
+      1423,
+      1435
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "backend": "llm",
+  "fine_tuned": true,
+  "base_model": "unsloth/Qwen2.5-3B-Instruct-bnb-4bit",
+  "model_key": "qwen25_3b",
+  "save_method": "lora",
+  "task": "assertion"
+}

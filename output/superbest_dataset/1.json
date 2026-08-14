@@ -1,0 +1,266 @@
+[
+  {
+    "text": "THIẾU MEN G6PD",
+    "position": [
+      0,
+      14
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "D55.0"
+    ]
+  },
+  {
+    "text": "Thiếu men G6PD",
+    "position": [
+      27,
+      41
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "D55.0"
+    ]
+  },
+  {
+    "text": "Thiếu men G6PD",
+    "position": [
+      55,
+      69
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "D55.0"
+    ]
+  },
+  {
+    "text": "bệnh di truyền lặn",
+    "position": [
+      113,
+      131
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "Q61.1"
+    ]
+  },
+  {
+    "text": "thiếu men G6PD",
+    "position": [
+      1019,
+      1033
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "D55.0"
+    ]
+  },
+  {
+    "text": "xét nghiệm thiếu men G6PD",
+    "position": [
+      1126,
+      1151
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nghi ngờ thiếu men G6PD",
+    "position": [
+      1220,
+      1243
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thiếu men G6PD",
+    "position": [
+      1371,
+      1385
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "D55.0"
+    ]
+  },
+  {
+    "text": "thiếu men G6PD",
+    "position": [
+      1497,
+      1511
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "D55.0"
+    ]
+  },
+  {
+    "text": "Thiếu men G6PD",
+    "position": [
+      2276,
+      2290
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "D55.0"
+    ]
+  },
+  {
+    "text": "thiếu máu tan huyết",
+    "position": [
+      2464,
+      2483
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thiếu men G6PD",
+    "position": [
+      2517,
+      2531
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "D55.0"
+    ]
+  },
+  {
+    "text": "thiếu máu tan huyết",
+    "position": [
+      2696,
+      2715
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thiếu men G6PD",
+    "position": [
+      2864,
+      2878
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "D55.0"
+    ]
+  },
+  {
+    "text": "thiếu men G6PD",
+    "position": [
+      3079,
+      3093
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "D55.0"
+    ]
+  },
+  {
+    "text": "thiếu men G6PD",
+    "position": [
+      3268,
+      3282
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "D55.0"
+    ]
+  },
+  {
+    "text": "thiếu men G6PD",
+    "position": [
+      3317,
+      3331
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "D55.0"
+    ]
+  },
+  {
+    "text": "Vitamin K",
+    "position": [
+      3583,
+      3592
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "11258"
+    ]
+  },
+  {
+    "text": "thiếu men G6PD",
+    "position": [
+      3880,
+      3894
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "D55.0"
+    ]
+  },
+  {
+    "text": "thiếu men G6PD",
+    "position": [
+      4186,
+      4200
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "D55.0"
+    ]
+  },
+  {
+    "text": "thiếu men G6PD",
+    "position": [
+      4229,
+      4243
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "D55.0"
+    ]
+  },
+  {
+    "text": "xét nghiệm sàng lọc trước sinh và sau sinh",
+    "position": [
+      4245,
+      4287
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "xét nghiệm sàng lọc",
+    "position": [
+      4368,
+      4387
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  }
+]

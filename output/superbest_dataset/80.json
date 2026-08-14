@@ -1,0 +1,108 @@
+[
+  {
+    "text": "bệnh gút",
+    "position": [
+      64,
+      72
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnhgout",
+    "position": [
+      396,
+      404
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hạt nhỏ ở vùng khớp",
+    "position": [
+      467,
+      486
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh gout mạn tính",
+    "position": [
+      524,
+      542
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hoại tử",
+    "position": [
+      938,
+      945
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhiễm trùng máu",
+    "position": [
+      973,
+      988
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "xơ gan mất bù",
+    "position": [
+      1019,
+      1032
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tăng áp lực tĩnh mạch cửa",
+    "position": [
+      1036,
+      1061
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "K76.6"
+    ]
+  },
+  {
+    "text": "cổ trướng",
+    "position": [
+      1063,
+      1072
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "R18"
+    ]
+  },
+  {
+    "text": "tràn dịch màng phổi",
+    "position": [
+      1076,
+      1095
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "J90"
+    ]
+  }
+]

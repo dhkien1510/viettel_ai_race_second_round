@@ -1,0 +1,382 @@
+[
+  {
+    "text": "Rối loạn chuyển hóa tinh bột (amyloidosis)",
+    "position": [
+      29,
+      71
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.9"
+    ]
+  },
+  {
+    "text": "Bệnh thoái hóa tinh bột",
+    "position": [
+      308,
+      331
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.9"
+    ]
+  },
+  {
+    "text": "bệnh amyloidosis",
+    "position": [
+      337,
+      353
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.9"
+    ]
+  },
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "position": [
+      765,
+      796
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "gleevec",
+    "position": [
+      807,
+      814
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "282386"
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "position": [
+      821,
+      834
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "tăng lipid máu, không đặc hiệu",
+    "position": [
+      841,
+      871
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E78.5"
+    ]
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "position": [
+      878,
+      898
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "hẹp ống sống",
+    "position": [
+      905,
+      917
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "M48.0"
+    ]
+  },
+  {
+    "text": "Giả gout",
+    "position": [
+      924,
+      932
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu Giai đoạn 4",
+    "position": [
+      939,
+      980
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "N18.4"
+    ]
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "position": [
+      987,
+      1011
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "N40"
+    ]
+  },
+  {
+    "text": "ảo giác",
+    "position": [
+      1050,
+      1057
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "gleevec",
+    "position": [
+      1089,
+      1096
+    ],
+    "type": "THUỐC",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "282386"
+    ]
+  },
+  {
+    "text": "Toàn trạng suy kiệt",
+    "position": [
+      1184,
+      1203
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ảo giác",
+    "position": [
+      1231,
+      1238
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Lú lẫn ngày càng nặng",
+    "position": [
+      1254,
+      1275
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Cực kỳ yếu",
+    "position": [
+      1313,
+      1323
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ảo giác",
+    "position": [
+      1369,
+      1376
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Lú lẫn ngày càng nặng",
+    "position": [
+      1401,
+      1422
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "yếu cơ",
+    "position": [
+      1447,
+      1453
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "toàn trạng suy kiệt",
+    "position": [
+      1505,
+      1524
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ảo giác",
+    "position": [
+      1531,
+      1538
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Lú lẫn",
+    "position": [
+      1545,
+      1551
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Ăn uống kém",
+    "position": [
+      1558,
+      1569
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nôn",
+    "position": [
+      1581,
+      1584
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Nôn",
+    "position": [
+      1592,
+      1595
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Bệnh amyloidosis chuỗi nhẹ",
+    "position": [
+      1637,
+      1663
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.8"
+    ]
+  },
+  {
+    "text": "Bệnh amyloidosis tự miễn dịch",
+    "position": [
+      1673,
+      1702
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.3"
+    ]
+  },
+  {
+    "text": "Bệnh amyloidosis di truyền hoặc gia đình",
+    "position": [
+      1712,
+      1752
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.2"
+    ]
+  },
+  {
+    "text": "Bệnh thoái hóa tinh bột",
+    "position": [
+      1753,
+      1776
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.8"
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "position": [
+      1891,
+      1902
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.9"
+    ]
+  },
+  {
+    "text": "amyloidosis",
+    "position": [
+      2036,
+      2047
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "E85.9"
+    ]
+  }
+]

@@ -1,0 +1,408 @@
+[
+  {
+    "text": "rối loạn lo âu",
+    "position": [
+      81,
+      95
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "F41.2"
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "position": [
+      102,
+      115
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "tăng huyết áp",
+    "position": [
+      117,
+      130
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Táo bón mãn tính",
+    "position": [
+      138,
+      154
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "ngưng thở khi ngủ",
+    "position": [
+      162,
+      179
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "G47.3"
+    ]
+  },
+  {
+    "text": "nhịp thở nhanh",
+    "position": [
+      222,
+      236
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thiếu oxy",
+    "position": [
+      240,
+      249
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mệt mỏi",
+    "position": [
+      322,
+      329
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ho",
+    "position": [
+      331,
+      333
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chảy nước mũi",
+    "position": [
+      337,
+      350
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhiễm trùng đường hô hấp trên",
+    "position": [
+      470,
+      499
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhịp thở nhanh",
+    "position": [
+      603,
+      617
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mệt mỏi",
+    "position": [
+      745,
+      752
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ho",
+    "position": [
+      759,
+      761
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chảy nước mũi",
+    "position": [
+      768,
+      781
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "nhịp thở nhanh",
+    "position": [
+      788,
+      802
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Thiếu oxy",
+    "position": [
+      809,
+      818
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau",
+    "position": [
+      825,
+      828
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bạch cầu",
+    "position": [
+      858,
+      866
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "26.7",
+    "position": [
+      867,
+      871
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bnp",
+    "position": [
+      878,
+      881
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "4227",
+    "position": [
+      882,
+      886
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "kali",
+    "position": [
+      893,
+      897
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "3.2",
+    "position": [
+      898,
+      901
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "troponin",
+    "position": [
+      908,
+      916
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "0.01",
+    "position": [
+      917,
+      921
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "lactate",
+    "position": [
+      928,
+      935
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "1.8",
+    "position": [
+      936,
+      939
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "position": [
+      946,
+      970
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "dương tính  với 182bạch cầuvài vi khuẩn (vi khuẩn)",
+    "position": [
+      982,
+      1032
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "không cho thấy quá trình bệnh lý tim mạch hoặc hô hấp cấp tính",
+    "position": [
+      1098,
+      1160
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "position": [
+      1168,
+      1185
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "viêm phổi kẽ",
+    "position": [
+      1198,
+      1210
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Albuterol",
+    "position": [
+      1265,
+      1274
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "435"
+    ]
+  },
+  {
+    "text": "Ipratropium 1 lần",
+    "position": [
+      1278,
+      1295
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "7213"
+    ]
+  },
+  {
+    "text": "Ceftriaxone 1 gram dùng 1 liều",
+    "position": [
+      1302,
+      1332
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "1665021"
+    ]
+  },
+  {
+    "text": "Tylenol 1 gram, 1 liều duy nhất",
+    "position": [
+      1344,
+      1375
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "209459"
+    ]
+  },
+  {
+    "text": "cấy máu",
+    "position": [
+      1383,
+      1390
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "cấy nước tiểu",
+    "position": [
+      1400,
+      1413
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  }
+]

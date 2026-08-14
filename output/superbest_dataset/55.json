@@ -1,0 +1,84 @@
+[
+  {
+    "text": "Suy thận mạn giai đoạn V",
+    "position": [
+      910,
+      934
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "N18.5"
+    ]
+  },
+  {
+    "text": "đái tháo đường",
+    "position": [
+      938,
+      952
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "tăng huyết áp",
+    "position": [
+      956,
+      969
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "u ác của tuyến tiền liệt",
+    "position": [
+      976,
+      1000
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "C61"
+    ]
+  },
+  {
+    "text": "Sinh thiết tuyến tiền liệt",
+    "position": [
+      1179,
+      1205
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mệt mỏi",
+    "position": [
+      1249,
+      1256
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mất trí nhớ chi tiết",
+    "position": [
+      1258,
+      1278
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  }
+]

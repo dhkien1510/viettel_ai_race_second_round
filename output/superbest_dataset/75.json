@@ -1,0 +1,92 @@
+[
+  {
+    "text": "khối u trực tràng với hình ảnh của một u ác trực tràng đáng kể",
+    "position": [
+      25,
+      87
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sinh thiết",
+    "position": [
+      90,
+      100
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "u tuyến",
+    "position": [
+      118,
+      125
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Nấm bẹn",
+    "position": [
+      220,
+      227
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "B35.6"
+    ]
+  },
+  {
+    "text": "nhiễm nấm",
+    "position": [
+      240,
+      249
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "B35.6"
+    ]
+  },
+  {
+    "text": "nhiễm nấm da",
+    "position": [
+      453,
+      465
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "B35.6"
+    ]
+  },
+  {
+    "text": "nấm bẹn",
+    "position": [
+      491,
+      498
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "B35.6"
+    ]
+  },
+  {
+    "text": "nấm bẹn",
+    "position": [
+      691,
+      698
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "B35.6"
+    ]
+  }
+]

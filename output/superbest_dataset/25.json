@@ -1,0 +1,252 @@
+[
+  {
+    "text": "tắc ống dẫn trứng",
+    "position": [
+      757,
+      774
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "teo niêm mạc tử cung",
+    "position": [
+      801,
+      821
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "vô sinh",
+    "position": [
+      848,
+      855
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "N97.0"
+    ]
+  },
+  {
+    "text": "ung thư cổ tử cung",
+    "position": [
+      895,
+      913
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mang thai ngoài tử cung",
+    "position": [
+      1014,
+      1037
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mụn trứng cá",
+    "position": [
+      1227,
+      1239
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L70.0"
+    ]
+  },
+  {
+    "text": "ban đỏ",
+    "position": [
+      1494,
+      1500
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau khi sờ nắn",
+    "position": [
+      1504,
+      1518
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sưng nề",
+    "position": [
+      1649,
+      1656
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau",
+    "position": [
+      1657,
+      1660
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ban đỏ",
+    "position": [
+      1694,
+      1700
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau",
+    "position": [
+      1741,
+      1744
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ban đỏ",
+    "position": [
+      1778,
+      1784
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sưng nề",
+    "position": [
+      1829,
+      1836
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "cấy mẫu bệnh phẩm",
+    "position": [
+      1864,
+      1881
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "levafloxacin",
+    "position": [
+      1914,
+      1926
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "82122"
+    ]
+  },
+  {
+    "text": "cephalexin",
+    "position": [
+      1930,
+      1940
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [
+      "2231"
+    ]
+  },
+  {
+    "text": "ban đỏ lan rộng",
+    "position": [
+      1983,
+      1998
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chóng mặt",
+    "position": [
+      2008,
+      2017
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ban đỏ xuất hiện nhiểu ở vị trí phẫu thuật",
+    "position": [
+      2154,
+      2196
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau",
+    "position": [
+      2203,
+      2206
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "chóng mặt",
+    "position": [
+      2232,
+      2241
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sốt",
+    "position": [
+      2254,
+      2257
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "ban đỏ ở vị trí phẫu thuật",
+    "position": [
+      2370,
+      2396
+    ],
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": []
+  }
+]

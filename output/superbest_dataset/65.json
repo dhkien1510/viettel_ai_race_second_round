@@ -1,0 +1,200 @@
+[
+  {
+    "text": "bệnh rụng tóc",
+    "position": [
+      30,
+      43
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L63.9"
+    ]
+  },
+  {
+    "text": "rụng tóc",
+    "position": [
+      252,
+      260
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L63.9"
+    ]
+  },
+  {
+    "text": "rụng tóc từng vùng",
+    "position": [
+      404,
+      422
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L63.9"
+    ]
+  },
+  {
+    "text": "Corticosteroid",
+    "position": [
+      507,
+      521
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "corticoid",
+    "position": [
+      681,
+      690
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "rụng tóc toàn bộ",
+    "position": [
+      713,
+      729
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L63.1"
+    ]
+  },
+  {
+    "text": "rụng tóc toàn thể",
+    "position": [
+      735,
+      752
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L63.1"
+    ]
+  },
+  {
+    "text": "Nghiệm pháp gắng sức",
+    "position": [
+      962,
+      982
+    ],
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "dương tính với thiếu máu cơ tim cục bộ, biểu hiện ST chênh xuống ở các chuyển đạo thành dưới và thành bên",
+    "position": [
+      983,
+      1088
+    ],
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "diphenylcyclopropenone (diphencyprone)",
+    "position": [
+      1116,
+      1154
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "dinitrochlorobenzene",
+    "position": [
+      1158,
+      1178
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "rụng tóc",
+    "position": [
+      1198,
+      1206
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L63.9"
+    ]
+  },
+  {
+    "text": "viêm da tiếp xúc dị ứng",
+    "position": [
+      1221,
+      1244
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "rụng tóc",
+    "position": [
+      1299,
+      1307
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L63.9"
+    ]
+  },
+  {
+    "text": "viêm da tiếp xúc",
+    "position": [
+      1349,
+      1365
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "mày đay",
+    "position": [
+      1367,
+      1374
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L50.1"
+    ]
+  },
+  {
+    "text": "bạch biến",
+    "position": [
+      1402,
+      1411
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L80"
+    ]
+  },
+  {
+    "text": "psoralen",
+    "position": [
+      1430,
+      1438
+    ],
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": []
+  }
+]

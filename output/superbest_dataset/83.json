@@ -1,0 +1,38 @@
+[
+  {
+    "text": "MÀY đay VÔ CĂN",
+    "position": [
+      170,
+      184
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L50.1"
+    ]
+  },
+  {
+    "text": "MÀY đay MẠN",
+    "position": [
+      268,
+      279
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L50.1"
+    ]
+  },
+  {
+    "text": "mày đay vô căn",
+    "position": [
+      747,
+      761
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "L50.1"
+    ]
+  }
+]

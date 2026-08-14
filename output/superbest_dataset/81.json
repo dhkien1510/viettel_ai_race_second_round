@@ -1,0 +1,118 @@
+[
+  {
+    "text": "sảy thai",
+    "position": [
+      78,
+      86
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "hội chứng tăng đông",
+    "position": [
+      140,
+      160
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "gen đông máu",
+    "position": [
+      179,
+      192
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thrombophilia",
+    "position": [
+      208,
+      221
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "thrombophilia",
+    "position": [
+      364,
+      377
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Thrombophilia",
+    "position": [
+      784,
+      797
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "bệnh tăng đông máu",
+    "position": [
+      876,
+      894
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sẩy thai",
+    "position": [
+      978,
+      986
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "sinh non",
+    "position": [
+      988,
+      996
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "tiền sản giật",
+    "position": [
+      998,
+      1011
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [
+      "O14.9"
+    ]
+  },
+  {
+    "text": "tắc mạch do cục máu đông",
+    "position": [
+      1420,
+      1444
+    ],
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isFamily"
+    ],
+    "candidates": [
+      "O88.2"
+    ]
+  }
+]
