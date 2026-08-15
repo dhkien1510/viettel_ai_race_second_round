@@ -44,6 +44,12 @@ class View:
     source: str  # e.g. "STR", "BN", "SY", "NORMALIZED"
 
 
+def source_alias_key(text: str) -> tuple:
+    """Stable, conservative key used for exact source-vocabulary aliases."""
+    parsed = parse_span(text)
+    return (parsed.ingredient_tokens, parsed.form_hints, parsed.strengths)
+
+
 def _dedupe_views(views: list[View], max_count: int) -> list[View]:
     seen: set[str] = set()
     result: list[View] = []
@@ -81,14 +87,23 @@ def _build_views_for_rxcui(entries: list[Entry]) -> list[View]:
 def build(rrf_path: Path = RRF_PATH, cache_path: Path = CACHE_PATH) -> None:
     entries: list[Entry] = []
     rxcui_groups: dict[str, list[Entry]] = {}
+    source_atoms: list[tuple[str, str, str]] = []
 
     with rrf_path.open(encoding="utf-8") as f:
         for line in f:
             fields = line.rstrip("\n").split("|")
-            rxcui, sab, tty, str_ = fields[0], fields[11], fields[12], fields[14]
-            if sab != "RXNORM" or tty not in KEEP_TTY:
-                continue
+            rxcui, lat, sab, tty, str_ = fields[0], fields[1], fields[11], fields[12], fields[14]
             suppress = fields[16] if len(fields) > 16 else ""
+            if sab != "RXNORM":
+                # RxNorm preserves names from its source vocabularies.  Keep
+                # active English atoms as exact aliases, but never make them
+                # normal fuzzy-search entries: ambiguous surface forms are
+                # filtered below and cannot override the RXNORM vocabulary.
+                if lat == "ENG" and suppress in ("", "N") and str_.strip():
+                    source_atoms.append((rxcui, sab, str_))
+                continue
+            if tty not in KEEP_TTY:
+                continue
             parsed = parse_span(str_)
             entry = Entry(rxcui, tty, str_, parsed.all_tokens, parsed.strengths, suppress)
             entries.append(entry)
@@ -98,6 +113,23 @@ def build(rrf_path: Path = RRF_PATH, cache_path: Path = CACHE_PATH) -> None:
     rxcui_views: dict[str, list[View]] = {}
     for rxcui, group in rxcui_groups.items():
         rxcui_views[rxcui] = _build_views_for_rxcui(group)
+
+    # Exact-only source vocabulary aliases.  Retain provenance and only
+    # accept a normalized surface when it identifies one RxCUI unambiguously.
+    alias_candidates: dict[tuple, dict[str, set[str]]] = {}
+    for rxcui, sab, text in source_atoms:
+        if rxcui not in rxcui_groups:
+            continue
+        key = source_alias_key(text)
+        if not key[0]:
+            continue
+        alias_candidates.setdefault(key, {}).setdefault(rxcui, set()).add(sab)
+
+    source_alias_index: dict[tuple, tuple[str, tuple[str, ...]]] = {}
+    for key, by_rxcui in alias_candidates.items():
+        if len(by_rxcui) == 1:
+            rxcui, sources = next(iter(by_rxcui.items()))
+            source_alias_index[key] = (rxcui, tuple(sorted(sources)))
 
     # Build token index from all entry tokens
     token_index: dict[str, list[int]] = {}
@@ -114,10 +146,14 @@ def build(rrf_path: Path = RRF_PATH, cache_path: Path = CACHE_PATH) -> None:
                 "token_index": token_index,
                 "tty_priority": TTY_PRIORITY,
                 "rxcui_views": rxcui_views,
+                "source_alias_index": source_alias_index,
             },
             f,
         )
-    print(f"Indexed {len(entries)} RXNORM entries with {len(rxcui_views)} RXCUI views -> {cache_path}")
+    print(
+        f"Indexed {len(entries)} RXNORM entries, {len(rxcui_views)} RXCUI views, "
+        f"and {len(source_alias_index)} unambiguous source aliases -> {cache_path}"
+    )
 
 
 if __name__ == "__main__":

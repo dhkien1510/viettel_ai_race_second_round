@@ -125,15 +125,25 @@ def build(conso_cache_path: Path = CONSO_CACHE_PATH, out_path: Path = EMBED_CACH
 class EmbedIndex:
     """Loaded lazily by RxNormLinker -- only touched once tiers 1-3 have already failed a span."""
 
-    def __init__(self, path: Path = EMBED_CACHE_PATH, model_name: str = MODEL_NAME):
+    def __init__(
+        self,
+        path: Path = EMBED_CACHE_PATH,
+        model_name: str = MODEL_NAME,
+        preferred_entries: dict | None = None,
+    ):
         if not path.exists():
             raise FileNotFoundError(
                 f"{path} missing -- run `python scripts/build_rxnorm_index.py --build-embeddings` once first"
             )
         data = np.load(path, allow_pickle=False)
-        self.vectors = data["vectors"]
+        # The compressed cache's fixed-width Unicode `strings` array expands
+        # to >2 GB for this snapshot.  The linker already has preferred
+        # strings in its lexical cache, so do not materialize that array.
+        # float16 also halves the 703 MB vector matrix while preserving more
+        # than enough precision for candidate retrieval.
+        self.vectors = data["vectors"].astype(np.float16)
         self.rxcuis = data["rxcuis"]
-        self.strings = data["strings"]
+        self.preferred_entries = preferred_entries or {}
         self._model_name = model_name
         self._model = None
 
@@ -147,10 +157,14 @@ class EmbedIndex:
     def search(self, text: str, top_k: int = 3) -> list[tuple[str, str, float]]:
         """Search by query text. Returns [(rxcui, str_, cosine_sim), ...]."""
         vec = self.model.encode([text], normalize_embeddings=True, convert_to_numpy=True)[0]
-        sims = self.vectors @ vec
+        sims = self.vectors @ vec.astype(np.float16)
         top_idx = np.argsort(-sims)[:top_k]
         return [
-            (str(self.rxcuis[i]), str(self.strings[i]), float(sims[i]))
+            (
+                str(self.rxcuis[i]),
+                getattr(self.preferred_entries.get(str(self.rxcuis[i])), "str_", str(self.rxcuis[i])),
+                float(sims[i]),
+            )
             for i in top_idx
         ]
 

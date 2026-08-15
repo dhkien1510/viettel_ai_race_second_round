@@ -35,7 +35,7 @@ def test_config_defaults():
     assert CONFIG.collapse_threshold == 0.75
     assert CONFIG.min_lexical_score == 0.35
     assert CONFIG.min_embedding_similarity == 0.60
-    assert CONFIG.cache_version == "mv-hybrid-v3-normalization"
+    assert CONFIG.cache_version == "mv-hybrid-v4-source-aliases"
     print("PASS: test_config_defaults")
 
 
@@ -256,7 +256,7 @@ def test_cache_versioning():
     from rxnorm.config import CONFIG
 
     # Verify cache_version la duoc dinh nghia va khong rong
-    assert CONFIG.cache_version == "mv-hybrid-v3-normalization"
+    assert CONFIG.cache_version == "mv-hybrid-v4-source-aliases"
     assert len(CONFIG.cache_version) > 0
 
     # The actual version check happens in linker.py __init__ and embed_index.py build()

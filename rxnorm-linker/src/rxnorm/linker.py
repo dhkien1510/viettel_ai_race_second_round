@@ -8,7 +8,7 @@ from pathlib import Path
 
 import numpy as np
 
-from .build_index import CACHE_PATH, Entry, build
+from .build_index import CACHE_PATH, Entry, build, source_alias_key
 from .config import CONFIG
 from .normalize import (
     FORM_VARIANT_TOKENS,
@@ -56,6 +56,14 @@ class RxNormLinker:
         self.token_index: dict[str, list[int]] = data["token_index"]
         self.tty_priority: dict[str, int] = data["tty_priority"]
         self.rxcui_views: dict[str, list] = data.get("rxcui_views", {})
+        self.source_alias_index: dict[tuple, tuple[str, tuple[str, ...]]] = data.get(
+            "source_alias_index", {}
+        )
+        self._preferred_entry_by_rxcui: dict[str, Entry] = {}
+        for entry in self.entries:
+            current = self._preferred_entry_by_rxcui.get(entry.rxcui)
+            if current is None or self.tty_priority.get(entry.tty, 20) < self.tty_priority.get(current.tty, 20):
+                self._preferred_entry_by_rxcui[entry.rxcui] = entry
         self._embed_index = None  # lazy: only load the model if tier 3 fires
         self._reranker = None  # lazy: only load the cross-encoder if tier 3 fires
 
@@ -340,6 +348,22 @@ class RxNormLinker:
         return top
 
     # -- public API -----------------------------------------------------
+    def _source_alias_match(self, text: str) -> list[Candidate]:
+        match = self.source_alias_index.get(source_alias_key(text))
+        if match is None:
+            return []
+        rxcui, sources = match
+        entry = self._preferred_entry_by_rxcui.get(rxcui)
+        if entry is None:
+            return []
+        return [Candidate(
+            rxcui=entry.rxcui,
+            tty=entry.tty,
+            str_=entry.str_,
+            score=1.0,
+            method="source_alias:" + ",".join(sources),
+        )]
+
     def link(
         self,
         text: str,
@@ -367,7 +391,7 @@ class RxNormLinker:
         if query.ingredient_tokens and set(query.ingredient_tokens) <= NON_LINKABLE_CLASS_TERMS:
             return []
         if not query.ingredient_tokens:
-            return tier3(text)
+            return self._source_alias_match(text) or tier3(text)
 
         # No strength stated -> ingredient/brand level search first; fall through to embedding if nothing matches.
         if not query.strengths:
@@ -404,7 +428,7 @@ class RxNormLinker:
             return self._finalize(ranked, top_k)
 
         # Tier 3: ingredient token itself is not in RxNorm vocabulary at all.
-        return tier3(text)
+        return self._source_alias_match(text) or tier3(text)
 
     def link_exact(self, text: str) -> list[Candidate]:
         """Only return a candidate when the match is exact -- no embedding
@@ -468,7 +492,7 @@ class RxNormLinker:
     def _get_embed_index(self):
         if self._embed_index is None:
             from .embed_index import EmbedIndex
-            self._embed_index = EmbedIndex()
+            self._embed_index = EmbedIndex(preferred_entries=self._preferred_entry_by_rxcui)
         return self._embed_index
 
     def _get_reranker(self):
@@ -630,7 +654,9 @@ class RxNormLinker:
         if query.ingredient_tokens and not query.strengths:
             ranked = self._rank(query, self._candidate_idxs(query, _BARE_TTY))
             selected = self._select_conservative_bare(query, ranked)
-            return [selected.rxcui] if selected else []
+            if selected:
+                return [selected.rxcui]
+            return [c.rxcui for c in self._source_alias_match(text)]
 
         dosed = self._rank(query, self._candidate_idxs(query, _DOSED_TTY))
         dosed = [c for c in dosed if c.score >= CONFIG.min_lexical_score]
@@ -719,7 +745,9 @@ class RxNormLinker:
 
         bare = self._rank(query, self._candidate_idxs(query, _BARE_TTY))
         selected = self._select_conservative_bare(query, bare)
-        return [selected.rxcui] if selected else []
+        if selected:
+            return [selected.rxcui]
+        return [c.rxcui for c in self._source_alias_match(text)]
 
 
 @lru_cache(maxsize=1)

@@ -77,7 +77,7 @@ class Config:
     # v3 changes tokenization, aliases and strength canonicalization.  The
     # index must be rebuilt because build_index.py uses the same parser for
     # RxNorm entries as the online query path.
-    cache_version: str = "mv-hybrid-v3-normalization"
+    cache_version: str = "mv-hybrid-v4-source-aliases"
 
 
 CONFIG = Config()
