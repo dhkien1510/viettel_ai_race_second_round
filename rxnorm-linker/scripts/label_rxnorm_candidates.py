@@ -27,6 +27,7 @@ def fill_candidates(
     use_tier3: bool = True,
     dose_fallback: str = "nearest",
     score_guided_manual: bool = False,
+    adaptive_parser: bool = False,
 ) -> list[dict]:
     linker = get_linker()
     if score_guided_manual:
@@ -43,7 +44,8 @@ def fill_candidates(
             ent["candidates"] = linker.link_exact_rxcuis(ent["text"])
         else:
             ent["candidates"] = linker.link_rxcuis(
-                ent["text"], top_k=top_k, use_tier3=use_tier3, dose_fallback=dose_fallback
+                ent["text"], top_k=top_k, use_tier3=use_tier3,
+                dose_fallback=dose_fallback, adaptive_parser=adaptive_parser,
             )
     return entities
 
@@ -70,6 +72,9 @@ def main() -> None:
     ap.add_argument("--score-guided-manual", action="store_true",
                     help="use the score-guided conservative one-candidate heuristic; "
                          "no per-submission text map is used")
+    ap.add_argument("--adaptive-parser", action="store_true",
+                    help="derive identity tokens from the RxNorm vocabulary instead of "
+                         "the dataset-specific stopword list")
     args = ap.parse_args()
 
     files = [Path(f) for f in args.files]
@@ -91,6 +96,7 @@ def main() -> None:
             use_tier3=not args.no_tier3,
             dose_fallback=args.dose_fallback,
             score_guided_manual=args.score_guided_manual,
+            adaptive_parser=args.adaptive_parser,
         )
         target = out_dir / path.name if out_dir else path
         target.write_text(json.dumps(entities, ensure_ascii=False, indent=2), encoding="utf-8")

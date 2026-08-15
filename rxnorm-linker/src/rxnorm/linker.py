@@ -20,6 +20,7 @@ from .normalize import (
     parse_span,
 )
 from .query_expansion import expand_query
+from .medication_parser import RxNormVocabularyParser
 
 
 @dataclass
@@ -66,6 +67,7 @@ class RxNormLinker:
                 self._preferred_entry_by_rxcui[entry.rxcui] = entry
         self._embed_index = None  # lazy: only load the model if tier 3 fires
         self._reranker = None  # lazy: only load the cross-encoder if tier 3 fires
+        self._medication_parser = RxNormVocabularyParser(self.token_index, len(self.entries))
 
     # -- scoring -----------------------------------------------------
     def _strength_score(self, query: ParsedSpan, entry: Entry) -> float | None:
@@ -370,6 +372,7 @@ class RxNormLinker:
         top_k: int | None = None,
         use_tier3: bool = True,
         dose_fallback: str = "nearest",
+        adaptive_parser: bool = False,
     ) -> list[Candidate]:
         """`use_tier3=False` and `dose_fallback="bare"` are experiment knobs
         (see label_rxnorm_candidates.py --no-tier3 / --dose-fallback) to A/B
@@ -387,7 +390,7 @@ class RxNormLinker:
         def tier3(t: str) -> list[Candidate]:
             return self._embedding_fallback(t, top_k) if use_tier3 else []
 
-        query = parse_span(text)
+        query = self._medication_parser.parse(text) if adaptive_parser else parse_span(text)
         if query.ingredient_tokens and set(query.ingredient_tokens) <= NON_LINKABLE_CLASS_TERMS:
             return []
         if not query.ingredient_tokens:
@@ -397,6 +400,22 @@ class RxNormLinker:
         if not query.strengths:
             ranked = self._rank(query, self._candidate_idxs(query, _BARE_TTY))
             ranked = [c for c in ranked if c.score >= CONFIG.min_lexical_score]
+            if adaptive_parser and len(query.ingredient_tokens) == 1:
+                # With a single generic KB token, do not invent a more
+                # specific concept that the mention never stated. Example:
+                # "vaccine phong dai" only anchors on "vaccine" and must not
+                # become RxNorm's "pertussis vaccine" merely because both
+                # contain that generic word.
+                query_tokens = set(query.ingredient_tokens)
+                raw_word_count = len(re.findall(r"[A-Za-zÀ-ỹ]+\d*", text))
+                if raw_word_count > 1:
+                    ranked = [
+                        c for c in ranked
+                        if (
+                            set(parse_span(c.str_).ingredient_tokens)
+                            - NEUTRAL_TOKENS - FORM_VARIANT_TOKENS
+                        ) <= query_tokens
+                    ]
             if ranked:
                 return self._finalize(ranked, top_k)
             # ingredient token is not in RxNorm vocabulary at all (typo, informal name, glued-word error) -> tier 3.
@@ -640,10 +659,14 @@ class RxNormLinker:
         top_k: int = CONFIG.top_k,
         use_tier3: bool = True,
         dose_fallback: str = "nearest",
+        adaptive_parser: bool = False,
     ) -> list[str]:
         return [
             c.rxcui
-            for c in self.link(text, top_k=top_k, use_tier3=use_tier3, dose_fallback=dose_fallback)
+            for c in self.link(
+                text, top_k=top_k, use_tier3=use_tier3,
+                dose_fallback=dose_fallback, adaptive_parser=adaptive_parser,
+            )
         ]
 
     def link_score_guided_rxcuis(self, text: str) -> list[str]:

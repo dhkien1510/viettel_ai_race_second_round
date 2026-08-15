@@ -297,6 +297,29 @@ def test_stopwords_filtered():
     print("PASS: test_stopwords_filtered")
 
 
+def test_adaptive_medication_parser_ignores_unseen_instructions():
+    """Narrative words need not exist in a hard-coded stopword list."""
+    from rxnorm.medication_parser import RxNormVocabularyParser
+
+    token_index = {"omeprazole": [1, 2], "tablet": list(range(100)), "b": [3]}
+    parser = RxNormVocabularyParser(token_index, entry_count=1000, max_df_ratio=0.02)
+    parsed = parser.parse("omeprazole 20mg foobar instruction hoàn toàn mới")
+    assert parsed.ingredient_tokens == ("omeprazole",)
+    assert parsed.strengths == ((20.0, "MG"),)
+
+    parsed = parser.parse("omeprazole 20mg tablet")
+    assert parsed.ingredient_tokens == ("omeprazole",)
+    assert "tablet" in parsed.form_hints
+
+    # Single letters must not retrieve similarly named brands.
+    assert parser.parse("kháng B-histamin").ingredient_tokens == ()
+    vitamin_index = {**token_index, "vitamin": [4], "k": [5]}
+    vitamin_parser = RxNormVocabularyParser(vitamin_index, entry_count=1000,
+                                            max_df_ratio=0.02)
+    assert vitamin_parser.parse("Vitamin K").ingredient_tokens == ("vitamin", "k")
+    print("PASS: test_adaptive_medication_parser_ignores_unseen_instructions")
+
+
 def test_strength_parsing():
     """Parse strength dung tu span."""
     from rxnorm.normalize import parse_span
@@ -522,6 +545,7 @@ def main():
         test_cache_versioning,
         test_normalize_preserves_vietnamese,
         test_stopwords_filtered,
+        test_adaptive_medication_parser_ignores_unseen_instructions,
         test_strength_parsing,
         test_problematic_submission_spans,
         test_form_variant_penalty,
