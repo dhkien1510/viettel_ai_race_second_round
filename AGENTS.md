@@ -12,7 +12,12 @@ ngắn gọn cho người dùng.
 
 - Chỉnh sửa code, chạy test, train/evaluate model và quản lý file bằng dòng lệnh
   trên đúng VM được cấp cho team, trong giới hạn tài nguyên của cuộc thi.
-- Mở duy nhất một terminal SSH tương tác bằng chính xác lệnh `ssh team07`.
+- Mở và điều khiển duy nhất một terminal SSH tương tác bằng chính xác lệnh
+  `ssh team07`. Agent được phép dùng bộ điều khiển PTY cục bộ trong WSL để cấp
+  terminal và gửi phím/stdin vào chính phiên tương tác này.
+- Sau khi shell tương tác trên VM đã mở thành công, agent được phép chạy lệnh
+  bên trong shell để kiểm tra hệ thống, cài package, tải model qua proxy nội bộ,
+  train/evaluate và quản lý file trong phạm vi được cấp.
 - Code, chạy notebook và upload/download file qua Code Editor hoặc JupyterLab
   chính thức do BTC cung cấp.
 - Cài package qua proxy nội bộ đã được BTC cấu hình sẵn. Nếu công cụ không tự
@@ -33,8 +38,16 @@ ngắn gọn cho người dùng.
 
 ## 4. Quy tắc SSH bắt buộc
 
-- Lệnh SSH duy nhất được phép là chính xác `ssh team07`, chỉ để mở terminal
-  tương tác. Không thêm tùy chọn, đối số, command suffix, pipe hoặc redirection.
+- Tiến trình SSH duy nhất được phép phải được khởi chạy bằng chính xác
+  `ssh team07`, chỉ để mở terminal tương tác. Không thêm tùy chọn, đối số,
+  command suffix, pipe hoặc redirection vào lệnh SSH.
+- Được phép dùng một bộ điều khiển PTY cục bộ trong WSL để khởi chạy tiến trình
+  `ssh team07`, chờ shell tương tác xuất hiện, rồi gửi lệnh qua stdin/phím bấm
+  như thao tác terminal thông thường. Bộ điều khiển không được biến lệnh SSH
+  thành remote command và không được mở nhiều phiên SSH đồng thời.
+- Mọi lệnh trên VM chỉ được gửi sau khi shell tương tác đã mở. Agent được phép
+  đọc output kỹ thuật không nhạy cảm cần thiết để chẩn đoán và xác minh, nhưng
+  không được đọc hoặc đưa dữ liệu hạn chế hay credential ra khỏi VM.
 - KHÔNG ĐƯỢC dùng `scp`, `sftp`, `rsync` hoặc bất kỳ cơ chế nào để truyền file
   qua SSH.
 - KHÔNG ĐƯỢC chạy remote command như `ssh team07 "some command"` hoặc dùng chế
@@ -43,6 +56,9 @@ ngắn gọn cho người dùng.
   tunnel hay bất kỳ hình thức port forwarding nào.
 - KHÔNG ĐƯỢC SSH tới VM của team khác hoặc tìm đường vòng tới tài nguyên không
   được cấp.
+- Nếu phiên SSH yêu cầu password, private key, token, hoặc xác nhận một host key
+  chưa được BTC/người dùng xác minh, agent phải dừng; không được tự đọc, nhập,
+  chấp nhận hoặc trích xuất các thông tin đó.
 
 ## 5. Web IDE và truyền file
 
