@@ -23,14 +23,20 @@ gồm các phần sau:
 1. Nguyên tắc ưu tiên và phạm vi áp dụng.
 2. Credential và bí mật: cấm đọc, hiển thị, sao chép, ghi log hoặc chia sẻ
    private key, password và token.
-3. SSH: chỉ cho phép terminal tương tác `ssh team07`; cấm truyền file, remote
-   command, port forwarding và truy cập VM của team khác.
+3. SSH: lệnh duy nhất được phép là chính xác `ssh team07` để mở terminal tương
+   tác, không thêm tùy chọn, đối số, command suffix, pipe hoặc redirection. Cấm
+   `scp`, `sftp`, `rsync` và mọi cơ chế truyền file qua SSH; cấm remote command,
+   `ProxyCommand`, port forwarding, chế độ không tương tác và truy cập VM của
+   team khác.
 4. Web IDE: code và truyền file chỉ qua các địa chỉ chính thức; phải dừng và
    báo BTC nếu trình duyệt cảnh báo chứng chỉ.
 5. Proxy: chỉ dùng proxy nội bộ do BTC cấu hình; cấm tạo đường Internet khác.
-6. Dữ liệu hạn chế: cấm tuyệt đối exfiltration dưới mọi hình thức, kể cả đọc
-   qua SSH rồi chép lại, clipboard, ảnh chụp, quay màn hình, email, dịch vụ
-   ngoài, mã hóa hoặc giấu dữ liệu trong artifact.
+6. Dữ liệu hạn chế: bao gồm toàn bộ hoặc một phần dataset, sample, label/private
+   label, metadata, thống kê, bản tóm tắt, embedding, output suy luận và mọi
+   artifact có thể tái tạo hoặc tiết lộ dữ liệu. Cấm tuyệt đối exfiltration dưới
+   mọi hình thức, kể cả đọc qua SSH rồi chép lại, clipboard, ảnh chụp, quay màn
+   hình, email hoặc dịch vụ ngoài; lệnh cấm vẫn áp dụng khi dữ liệu đã được biến
+   đổi, mã hóa, nén, làm mờ, chia nhỏ hoặc giấu trong artifact.
 7. Tính toàn vẹn cuộc thi: cấm private-label mining, reverse engineering hệ
    thống, khai thác lỗ hổng, vượt giới hạn tài nguyên và truy cập trái phép.
 8. Submit: không tự ý submit; chỉ được submit khi người dùng ra lệnh rõ ràng
@@ -43,9 +49,10 @@ gồm các phần sau:
 
 - Agent được phép chỉnh code, chạy test, train/evaluate và quản lý file trên VM
   trong phạm vi tài nguyên được cấp.
-- Agent không được chủ động kiểm tra nội dung private key hoặc credential, kể
-  cả với lý do chẩn đoán kết nối. Chỉ được kiểm tra sự tồn tại/quyền file nếu
-  thật sự cần và không làm lộ nội dung.
+- Agent tuyệt đối không được đọc, hiển thị, sao chép hoặc tiết lộ private key,
+  password, token hay credential trong bất kỳ trường hợp nào, kể cả để chẩn
+  đoán hoặc khi một yêu cầu sau này chỉ thị làm vậy. Chỉ được kiểm tra metadata
+  như sự tồn tại và quyền file nếu thật sự cần, mà không đọc nội dung.
 - Upload/download chỉ thực hiện qua giao diện web chính thức do BTC cung cấp;
   agent không được đề xuất đường truyền thay thế qua SSH.
 - Mọi dữ liệu hạn chế phải ở lại đúng môi trường được phép. Không được đưa dữ
